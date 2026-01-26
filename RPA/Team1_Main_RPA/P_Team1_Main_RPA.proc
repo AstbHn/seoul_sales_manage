@@ -1,0 +1,141 @@
+<Process id="3745e8e7-3d51-443e-b58a-4ac32a5f16c5" type="process" workType="foreground" name="P_Team1_Main_RPA" version="" designerVersion="3.1.125.01231" lastPublishedServer="" readonly="false" isValid="true" DesignedBy="Designer" Template="" StepCount="6" Orientation="horizontal">
+  <Properties>
+    <Property key="Description" controlType="PropertyItemTextEditorView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="default process" enabled="True" />
+    <Property key="onBefore" controlType="PropertyItemEventHandlerView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" enabled="True" />
+    <Property key="onAfter" controlType="PropertyItemEventHandlerView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" enabled="True" />
+    <Property key="onError" controlType="PropertyItemEventHandlerView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" enabled="True" />
+    <Property key="Timeout" controlType="Int32" valueType="System.Int32" formatType="Integer" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="0" />
+    <Property key="RunningTime" controlType="Int32" valueType="System.Int32" formatType="Integer" required="False" visible="True" readonly="True" encrypted="False" isChanged="N" value="217" />
+    <Property key="Os" controlType="String" valueType="System.String" formatType="String" required="False" visible="True" readonly="True" encrypted="False" isChanged="N" value="Microsoft Windows 10 Pro64비트" />
+    <Property key="Resolution" controlType="String" valueType="System.String" formatType="String_Size" required="False" visible="True" readonly="True" encrypted="False" isChanged="N" value="3520x1080" />
+    <Property key="CreatedDate" controlType="String" valueType="System.String" formatType="String_DateTime" required="False" visible="True" readonly="True" encrypted="False" isChanged="N" value="2025-12-22 13:55:37" />
+    <Property key="CreatedBy" controlType="String" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+    <Property key="LastModifiedDate" controlType="String" valueType="System.String" formatType="String_DateTime" required="False" visible="True" readonly="True" encrypted="False" isChanged="N" value="2026-01-15 09:18:47" />
+    <Property key="LastModifiedBy" controlType="String" valueType="System.String" formatType="String" required="False" visible="True" readonly="True" encrypted="False" isChanged="N" value="" />
+    <Property key="LastPublishedDate" controlType="String" valueType="System.String" formatType="String_DateTime" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+    <Property key="LastPublishedBy" controlType="String" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+  </Properties>
+  <LinkItems />
+  <Variables>
+    <Variable name="FE" scope="Normal" valueType="Any" formatType="Any" initValue="" desc="" colorValue="#FF62B6B7" showMarker="True" />
+  </Variables>
+  <Steps>
+    <Step id="S0afeea48946e46708c1bba717abad35b" ver="311241220" createVer="311241220" type="Desktop" name="IsFileExist" dpName="IsFileExist" dpValue="this.FE" dpValue2="" dpImage="" tag="" depth="1" stmttype="Normal" enabled="True" mainSet="0">
+      <Properties id="38ba4137-9f2d-432c-8917-17493f8c1ab4" type="Desktop">
+        <Property type="Desktop" key="Options_OnError" controlType="PropertyItemEventHandlerView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+        <Property type="Desktop" key="Key_Description" controlType="PropertyItemTextEditorView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+        <Property type="Desktop" key="Command_Path" controlType="File" valueType="System.String" formatType="String_FilePath" required="True" visible="True" readonly="False" encrypted="False" isChanged="N" value="'C:\\Users\\5Class_012\\Desktop\\project\\Team_1_Main\\Flask\\static\\raw_csv\\서울시_상권분석서비스(추정매출-상권)_2019년.csv'" />
+        <Property type="Desktop" key="Command_Output" controlType="OutputControlType" valueType="System.Boolean" formatType="Variable" required="True" visible="True" readonly="False" encrypted="False" isChanged="N" value="this.FE" />
+      </Properties>
+      <RelatedSteps />
+      <Script><![CDATA[this.FE = StepPlayer.Run('Desktop.IsFileExist', this.isfileexist_info_1);]]></Script>
+    </Step>
+    <Step id="S6d3e6a3f92384964b540bc9553eefa04" ver="311241220" createVer="311241220" type="Flow" name="DecisionThen" dpName="IfThen" dpValue="this.FE== false" dpValue2="" dpImage="" tag="" depth="1" stmttype="OpenBlock" enabled="True" mainSet="0">
+      <Properties id="0d68c929-19fc-4364-b2b3-d1d9e315bca2" type="Flow">
+        <Property type="Flow" key="Key_Description" controlType="PropertyItemTextEditorView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+        <Property type="Flow" key="Conditions_Expression" controlType="PropertyItemTextEditorView" valueType="System.Object" formatType="Condition" required="True" visible="False" readonly="True" encrypted="False" isChanged="N" value="this.FE== false" order="1" />
+        <Property type="Flow" key="Conditions_CombineCondition" controlType="PropertyItemCombineConditionView" valueType="System.Boolean" formatType="Boolean" required="False" visible="False" readonly="False" encrypted="False" isChanged="N" value="True" order="2" />
+        <Property type="Flow" key="Conditions_Expression1" controlType="PropertyItemExpressionView" valueType="System.Object" formatType="Condition" required="True" visible="True" readonly="False" encrypted="False" isChanged="N" value="this.FE== false" order="3" />
+        <Property type="Flow" key="Conditions_AddCondition" controlType="PropertyItemAddConditionView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+      </Properties>
+      <RelatedSteps>
+        <RelatedStep id="Sd2eb40bd643d4c049500188d35e1e18d" type="Flow" name="EndDecisionThen" />
+      </RelatedSteps>
+      <Script><![CDATA[if (this.FE== false) {]]></Script>
+    </Step>
+    <Step id="S459769e0a5b24b72911f8298a6bdfddc" ver="311241220" createVer="311241220" type="Flow" name="RunTask" dpName="RunTask" dpValue="" dpValue2="" dpImage="" tag="" depth="2" stmttype="Normal" enabled="True" mainSet="0">
+      <Properties id="462f9190-8e04-43f2-8e03-aa6be5778d76" type="Flow">
+        <Property type="Flow" key="Options_OnError" controlType="PropertyItemEventHandlerView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+        <Property type="Flow" key="Key_Description" controlType="PropertyItemTextEditorView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+        <Property type="Flow" key="Conditions_TaskName" controlType="String" valueType="System.String" formatType="String" required="False" visible="True" readonly="True" encrypted="False" isChanged="N" value="T_Get_Raw_CSV" />
+      </Properties>
+      <RelatedSteps />
+      <Script><![CDATA[RunTask(this, 'T_Get_Raw_CSV', null);]]></Script>
+    </Step>
+    <Step id="Sd2eb40bd643d4c049500188d35e1e18d" ver="311241220" createVer="311241220" type="Flow" name="EndDecisionThen" dpName="End-IfThen" dpValue="" dpValue2="" dpImage="" tag="" depth="2" stmttype="CloseBlock" enabled="True" mainSet="0">
+      <Properties id="a9c844f0-a4fa-45df-93cc-079c9085da64" type="Flow">
+        <Property type="Flow" key="Key_Description" controlType="PropertyItemTextEditorView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+      </Properties>
+      <RelatedSteps>
+        <RelatedStep id="S6d3e6a3f92384964b540bc9553eefa04" type="Flow" name="DecisionThen" />
+      </RelatedSteps>
+      <Script><![CDATA[}]]></Script>
+    </Step>
+    <Step id="S43bfabda036142e68c50b60d5701d957" ver="311241220" createVer="311241220" type="Flow" name="RunTask" dpName="RunTask" dpValue="" dpValue2="" dpImage="" tag="" depth="1" stmttype="Normal" enabled="True" mainSet="0">
+      <Properties id="b983b8be-fd3a-42f3-aaea-d3a781efef57" type="Flow">
+        <Property type="Flow" key="Options_OnError" controlType="PropertyItemEventHandlerView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+        <Property type="Flow" key="Key_Description" controlType="PropertyItemTextEditorView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+        <Property type="Flow" key="Conditions_TaskName" controlType="String" valueType="System.String" formatType="String" required="False" visible="True" readonly="True" encrypted="False" isChanged="N" value="T_Server_Boot" />
+      </Properties>
+      <RelatedSteps />
+      <Script><![CDATA[RunTask(this, 'T_Server_Boot', null);]]></Script>
+    </Step>
+    <Step id="S3ad77f8926ec42108210be669a46a27e" ver="311241220" createVer="311241220" type="Flow" name="RunTask" dpName="RunTask" dpValue="" dpValue2="" dpImage="" tag="" depth="1" stmttype="Normal" enabled="True" mainSet="0">
+      <Properties id="f6efc131-2510-43a9-b022-60b0f345ed40" type="Flow">
+        <Property type="Flow" key="Options_OnError" controlType="PropertyItemEventHandlerView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+        <Property type="Flow" key="Key_Description" controlType="PropertyItemTextEditorView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+        <Property type="Flow" key="Conditions_TaskName" controlType="String" valueType="System.String" formatType="String" required="False" visible="True" readonly="True" encrypted="False" isChanged="N" value="T_Open_Project" />
+      </Properties>
+      <RelatedSteps />
+      <Script><![CDATA[RunTask(this, 'T_Open_Project', null);]]></Script>
+    </Step>
+  </Steps>
+  <JScript><![CDATA[function P_Team1_Main_RPA() {
+
+    this.FE;
+
+    this.RPAGOTOENABLE = false;
+    this.GotoStepRetryCntMap = {};
+    this.GotoBlockMap = {2:[4]};
+    this.GotoReverseBlockMap = {4:2};
+    this.GotoStepBlockTypeMap = {2:'DecisionThen',4:'EndDecisionThen'};
+
+
+    this.run = function() {
+
+        //------------------------------------------------
+        STEP('S0afeea48946e46708c1bba717abad35b', '[1] IsFileExist');
+        this.FE = StepPlayer.Run('Desktop.IsFileExist', this.isfileexist_info_1);
+
+        //------------------------------------------------
+        STEP('S6d3e6a3f92384964b540bc9553eefa04', '[2] IfThen');
+        if (this.FE== false) {
+
+            //------------------------------------------------
+            STEP('S459769e0a5b24b72911f8298a6bdfddc', '[3] RunTask');
+            RunTask(this, 'T_Get_Raw_CSV', null);
+
+        //------------------------------------------------
+        }
+        STEP('Sd2eb40bd643d4c049500188d35e1e18d', '[4] End-IfThen');
+
+        //------------------------------------------------
+        STEP('S43bfabda036142e68c50b60d5701d957', '[5] RunTask');
+        RunTask(this, 'T_Server_Boot', null);
+
+        //------------------------------------------------
+        STEP('S3ad77f8926ec42108210be669a46a27e', '[6] RunTask');
+        RunTask(this, 'T_Open_Project', null);
+
+
+    }
+
+    this.execute = function() {
+        var result = null;
+        result = this.run()
+        if (result != null)
+            return result;
+    }
+}
+]]></JScript>
+  <Diagram version="1.300" nodesize="Normal">
+    <StepNodes>
+      <StepNode step_id="S0afeea48946e46708c1bba717abad35b" group_name="ca409dec-f93a-42b0-8485-e84a52db2b18_Is_File_Exist" folded="False" color="" />
+      <StepNode step_id="S6d3e6a3f92384964b540bc9553eefa04" group_name="" folded="False" color="" />
+      <StepNode step_id="S459769e0a5b24b72911f8298a6bdfddc" group_name="" folded="False" color="" />
+      <StepNode step_id="Sd2eb40bd643d4c049500188d35e1e18d" group_name="" folded="False" color="" />
+      <StepNode step_id="S43bfabda036142e68c50b60d5701d957" group_name="" folded="False" color="" />
+      <StepNode step_id="S3ad77f8926ec42108210be669a46a27e" group_name="" folded="False" color="" />
+    </StepNodes>
+  </Diagram>
+</Process>

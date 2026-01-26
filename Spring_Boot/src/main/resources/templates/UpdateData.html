@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>서울시 상권 [음식점] 기본 정보 추가하기</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+    <script th:src="@{/js/analytics.js}"></script>
+</head>
+
+<body onload="trackPage('update_data')">
+
+<header>
+    <div class="system-title" id="top_div">서울시 상권 음식점 예측·분석 시스템</div>
+    <div class="page-title">데이터 수정</div>
+</header>
+
+<div class="to_main">
+    <a th:href="@{/viewpage}" onclick="trackPage('viewpage')">기존 자료 차트 & 리스트</a>
+    |
+    <a th:href="@{/preview}" onclick="trackPage('preview')">예측</a>
+    |
+    <a th:href="@{/}" onclick="trackPage('index')">메인화면</a>
+</div>
+
+<hr>
+
+<main>
+    <section>
+        <h2>OCR 추가하기</h2>
+        <form action="http://localhost:5678/image_reader"
+              method="post"
+              enctype="multipart/form-data"
+              style="margin:20px;"
+              id="ocr_form"
+              onsubmit="trackCsvUpload()">
+            <label>OCR 업로드</label>
+            <input type="file" name="img" accept="image/*" required>
+            <button type="submit">OCR 업로드</button>
+        </form>
+    </section>
+
+    <section>
+        <h2>직접 입력</h2>
+        <form th:action="@{/update_to_input}"
+              method="post"
+              id="input_form"
+              onsubmit="trackPage('manual_input')">
+            <label>
+                연도
+                <select name="year">
+                    <option th:each="y : ${#numbers.sequence(2019, 2024)}"
+                            th:value="${y}"
+                            th:text="${y}">
+                    </option>
+                </select>
+            </label>
+
+            <label>
+                분기
+                <select name="quarter">
+                    <option value="1">1분기</option>
+                    <option value="2">2분기</option>
+                    <option value="3">3분기</option>
+                    <option value="4">4분기</option>
+                </select>
+            </label>
+
+            <label>
+                업종
+                <select name="sectorName">
+                    <option value="한식음식점">한식음식점</option>
+                    <option value="일식음식점">일식음식점</option>
+                    <option value="양식음식점">양식음식점</option>
+                    <option value="중식음식점">중식음식점</option>
+                    <option value="패스트푸드점">패스트푸드점</option>
+                </select>
+            </label>
+
+            <label>
+                매출액
+                <input type="number" name="salesAmount">
+            </label>
+
+            <label>
+                매출건수
+                <input type="number" name="salesCount">
+            </label>
+            <button type="submit">입력 추가</button>
+        </form>
+    </section>
+
+    <section>
+        <h2>CSV 추가하기</h2>
+        <form th:action="@{/update_to_csv}"
+              method="post"
+              enctype="multipart/form-data"
+              id="csv_form"
+              onsubmit="trackCsvUpload()">
+            <input type="file" name="csvFile" required>
+            <button type="submit">CSV 업로드</button>
+        </form>
+    </section>
+
+    <section>
+        <h2>JSON 추가하기</h2>
+        <form th:action="@{/update_to_json}"
+              method="post"
+              enctype="multipart/form-data"
+              id="json_form"
+              onsubmit="trackJsonUpload()">
+            <input type="file" name="jsonFile" required>
+            <button type="submit">JSON 업로드</button>
+        </form>
+    </section>
+</main>
+
+</body>
+</html>

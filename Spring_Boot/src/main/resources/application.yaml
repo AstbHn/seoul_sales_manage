@@ -1,0 +1,24 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/team1DB?serverTimezone=Asia/Seoul
+    username: root
+    password: 1234
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  sql:
+    init:
+      mode: always
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.project.team_project.domain
+
+logging:
+  pattern:
+    console: "%d{HH:mm:ss} %-5level %msg%n"
+  level:
+    org.springframework.web.servlet.resource.ResourceHttpRequestHandler: OFF
+
+server:
+  port: 8765
+

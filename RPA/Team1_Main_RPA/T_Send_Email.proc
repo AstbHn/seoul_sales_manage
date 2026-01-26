@@ -1,0 +1,75 @@
+<Process id="fe663838-972c-4ed6-9cef-39bc3c23799b" type="task" workType="foreground" name="T_Send_Email" version="" designerVersion="3.1.125.01231" lastPublishedServer="" readonly="false" isValid="false" DesignedBy="Designer" Template="" StepCount="1" Orientation="horizontal">
+  <Properties>
+    <Property key="Description" controlType="PropertyItemTextEditorView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" enabled="True" />
+    <Property key="onBefore" controlType="PropertyItemEventHandlerView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" enabled="True" />
+    <Property key="onAfter" controlType="PropertyItemEventHandlerView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" enabled="True" />
+    <Property key="onError" controlType="PropertyItemEventHandlerView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" enabled="True" />
+    <Property key="Timeout" controlType="Int32" valueType="System.Int32" formatType="Integer" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="0" />
+    <Property key="RunningTime" controlType="Int32" valueType="System.Int32" formatType="Integer" required="False" visible="True" readonly="True" encrypted="False" isChanged="N" value="0" />
+    <Property key="Os" controlType="String" valueType="System.String" formatType="String" required="False" visible="True" readonly="True" encrypted="False" isChanged="N" value="Microsoft Windows 10 Pro64비트" />
+    <Property key="Resolution" controlType="String" valueType="System.String" formatType="String_Size" required="False" visible="True" readonly="True" encrypted="False" isChanged="N" value="3520x1080" />
+    <Property key="CreatedDate" controlType="String" valueType="System.String" formatType="String_DateTime" required="False" visible="True" readonly="True" encrypted="False" isChanged="N" value="2026-01-16 10:04:29" />
+    <Property key="CreatedBy" controlType="String" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+    <Property key="LastModifiedDate" controlType="String" valueType="System.String" formatType="String_DateTime" required="False" visible="True" readonly="True" encrypted="False" isChanged="N" value="2026-01-16 10:04:56" />
+    <Property key="LastModifiedBy" controlType="String" valueType="System.String" formatType="String" required="False" visible="True" readonly="True" encrypted="False" isChanged="N" value="" />
+    <Property key="LastPublishedDate" controlType="String" valueType="System.String" formatType="String_DateTime" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+    <Property key="LastPublishedBy" controlType="String" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+  </Properties>
+  <LinkItems />
+  <Variables />
+  <Steps>
+    <Step id="Sabff6433714540fc8ad7524c052610cf" ver="311241220" createVer="311241220" type="Net" name="SendMail" dpName="SendMail" dpValue="" dpValue2="" dpImage="" tag="" depth="1" stmttype="Normal" enabled="True" mainSet="0" ready="False">
+      <Properties id="b88978d4-2ebe-4d8c-a7bd-0c4dbab01c1f" type="Net">
+        <Property type="Net" key="Options_OnError" controlType="PropertyItemEventHandlerView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+        <Property type="Net" key="Key_Description" controlType="PropertyItemTextEditorView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+        <Property type="Net" key="Mail_HostName" controlType="String" valueType="System.String" formatType="String" required="True" visible="True" readonly="False" encrypted="False" isChanged="N" value="'smtp.samsung.net'" />
+        <Property type="Net" key="Mail_Port" controlType="Int32" valueType="System.Int32" formatType="Integer" required="True" visible="True" readonly="False" encrypted="False" isChanged="N" value="25" />
+        <Property type="Net" key="Mail_UseSSL" controlType="Boolean" valueType="System.Boolean" formatType="Boolean" required="True" visible="True" readonly="False" encrypted="False" isChanged="N" value="False" />
+        <Property type="Net" key="Mail_ID" controlType="String" valueType="System.String" formatType="String" required="True" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+        <Property type="Net" key="Mail_Password" controlType="PropertyItemPasswordView" valueType="System.String" formatType="String" required="True" visible="True" readonly="False" encrypted="False" id="d7799881-608b-4a94-8e07-6ae8fbb233fb" isChanged="Y" value="" secureType="Normal" />
+        <Property type="Net" key="Mail_Sender" controlType="String" valueType="System.String" formatType="String_Email" required="True" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+        <Property type="Net" key="Mail_Receivers" controlType="String" valueType="System.String" formatType="String_Email" required="True" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+        <Property type="Net" key="Mail_CCs" controlType="String" valueType="System.String" formatType="String_Email" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+        <Property type="Net" key="Mail_BCCs" controlType="String" valueType="System.String" formatType="String_Email" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+        <Property type="Net" key="Mail_Subject" controlType="String" valueType="System.String" formatType="String" required="True" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+        <Property type="Net" key="Mail_Body" controlType="PropertyItemTextEditorView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+        <Property type="Net" key="Mail_IsHtml" controlType="Boolean" valueType="System.Boolean" formatType="Boolean" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="False" />
+        <Property type="Net" key="Mail_Attachments" controlType="String" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+        <Property type="Net" key="Mail_CheckFileSize" controlType="Int32" valueType="System.Int32" formatType="Integer" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="20" />
+      </Properties>
+      <RelatedSteps />
+      <Script><![CDATA[StepPlayer.Run('Net.SendMail', this.sendmail_info_1);]]></Script>
+    </Step>
+  </Steps>
+  <JScript><![CDATA[function T_Send_Email() {
+
+    this.RPAGOTOENABLE = false;
+    this.GotoStepRetryCntMap = {};
+    this.GotoBlockMap = {};
+    this.GotoReverseBlockMap = {};
+    this.GotoStepBlockTypeMap = {};
+
+
+    this.run = function() {
+
+        //------------------------------------------------
+        STEP('Sabff6433714540fc8ad7524c052610cf', '[1] SendMail');
+        StepPlayer.Run('Net.SendMail', this.sendmail_info_1);
+
+
+    }
+
+    this.execute = function() {
+        var result = null;
+        result = this.run()
+        if (result != null)
+            return result;
+    }
+}
+]]></JScript>
+  <Diagram version="1.300" nodesize="Normal">
+    <StepNodes>
+      <StepNode step_id="Sabff6433714540fc8ad7524c052610cf" group_name="de5d95db-41a5-4977-8061-4ca92a58bf6f_Untitled" folded="False" color="" />
+    </StepNodes>
+  </Diagram>
+</Process>

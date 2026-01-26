@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>기본 정보 조회</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script th:src="@{/js/analytics.js}"></script>
+</head>
+
+<body onload="trackPage('viewpage')">
+
+<header>
+    <div class="system-title">서울시 상권 음식점 예측·분석 시스템</div>
+    <div class="page-title">기본 데이터 조회</div>
+</header>
+
+<div class="to_main">
+    <a th:href="@{/update_data}" onclick="trackPage('update_data')">기존 자료 수정</a>
+    |
+    <a th:href="@{/preview}" onclick="trackPage('preview')">예측</a>
+    |
+    <a th:href="@{/}" onclick="trackPage('index')">메인화면</a>
+</div>
+
+<hr>
+
+<p th:if="${dataList == null or #lists.isEmpty(dataList)}">
+    조회된 데이터가 없습니다.
+</p>
+
+<section th:if="${dataList != null and !#lists.isEmpty(dataList)}">
+
+    <table>
+        <thead>
+        <tr>
+            <th>업종</th>
+            <th>연도</th>
+            <th>분기</th>
+            <th>매출액</th>
+            <th>매출건수</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="d : ${dataList}">
+            <td th:text="${d.sectorName}"></td>
+            <td th:text="${d.year}"></td>
+            <td th:text="${d.quarter}"></td>
+            <td th:text="${#numbers.formatInteger(d.salesAmount, 0, 'COMMA')}"></td>
+            <td th:text="${#numbers.formatInteger(d.salesCount, 0, 'COMMA')}"></td>
+
+        </tr>
+        </tbody>
+    </table>
+
+    <div class="pagination">
+        <a th:if="${currentPage > 1}"
+           th:href="@{/viewpage(page=${currentPage - 1})}"
+           onclick="trackPage('viewpage_prev')">◀</a>
+
+        <span th:each="p : ${pageList}">
+            <a th:if="${p != currentPage}"
+               th:href="@{/viewpage(page=${p})}"
+               th:text="${p}"
+               onclick="trackPage('viewpage_page_' + [[${p}]])"></a>
+            <strong th:if="${p == currentPage}"
+                    th:text="${p}"></strong>
+        </span>
+
+        <a th:if="${currentPage < totalPages}"
+           th:href="@{/viewpage(page=${currentPage + 1})}"
+           onclick="trackPage('viewpage_next')">▶</a>
+    </div>
+
+    <div id="chart-area">
+        <div class="chart-box">
+            <canvas id="salesChart"></canvas>
+        </div>
+
+        <div class="chart-box">
+            <canvas id="countChart"></canvas>
+        </div>
+    </div>
+    <script th:inline="javascript">
+        const chartData = [[${chartDataJson}]];
+
+        new Chart(document.getElementById('salesChart'), {
+            type: 'line',
+            data: chartData.sales,
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                aspectRatio: 1.3,
+                plugins: {
+                    title: {
+                        display: true,
+                        text: '업종별 매출액 추이'
+                    }
+                }
+            }
+        });
+
+        new Chart(document.getElementById('countChart'), {
+            type: 'line',
+            data: chartData.count,
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                aspectRatio: 1.3,
+                plugins: {
+                    title: {
+                        display: true,
+                        text: '업종별 매출건수 추이'
+                    }
+                }
+            }
+        });
+    </script>
+
+</section>
+
+</body>
+</html>

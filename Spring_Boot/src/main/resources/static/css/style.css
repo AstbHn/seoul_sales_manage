@@ -1,0 +1,317 @@
+/* =========================
+   기본 리셋 & 공통
+========================= */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+body {
+    background-color: #f6f7fb;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* =========================
+   헤더
+========================= */
+header {
+    background: linear-gradient(135deg, #2b5876, #4e4376);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.system-title {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.page-title {
+    font-size: 16px;
+    margin-top: 6px;
+    opacity: 0.9;
+}
+
+/* =========================
+   링크 / 네비
+========================= */
+a {
+    color: #4e4376;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.top-link {
+    margin-top: 30px;
+    justify-content: flex-end;
+}
+
+/* =========================
+   메인 레이아웃
+========================= */
+main {
+    padding: 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+section {
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+h2 {
+    margin-bottom: 15px;
+    color: #2b5876;
+}
+
+/* =========================
+   폼
+========================= */
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    align-items: center;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    gap: 4px;
+}
+
+input[type="number"],
+input[type="file"],
+select {
+    padding: 6px 8px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    min-width: 140px;
+}
+
+button {
+    background: #4e4376;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background: #2b5876;
+}
+
+/* =========================
+   메인 화면 버튼
+========================= */
+.main-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.main-box section {
+    text-align: center;
+}
+
+.main-box button {
+    width: 100%;
+    padding: 14px;
+    font-size: 15px;
+}
+
+/* =========================
+   테이블
+========================= */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+thead {
+    background: #4e4376;
+    color: #fff;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+    font-size: 14px;
+}
+
+tbody tr:nth-child(even) {
+    background: #f4f5f9;
+}
+
+/* =========================
+   페이지네이션
+========================= */
+.pagination {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.pagination a {
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background: #fff;
+}
+
+.pagination strong {
+    padding: 6px 10px;
+    border-radius: 6px;
+    background: #4e4376;
+    color: #fff;
+}
+
+/* =========================
+   차트 영역
+========================= */
+#chart-area {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+canvas {
+    background: #fff;
+    border-radius: 12px;
+    padding: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+/* =========================
+   반응형
+========================= */
+@media (max-width: 768px) {
+    #chart-area {
+        grid-template-columns: 1fr;
+    }
+
+    form {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+#chart-area {
+    display: flex;
+    flex-direction: column;   /* 위아래 */
+    gap: 50px;
+}
+
+.chart-box {
+    width: 100%;
+    height: 520px;            /* ⭐ 여기서 높이 제어 */
+}
+
+.chart-box canvas {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.to_main{
+    padding-left: 20px;   /* ⭐ 왼쪽 여백 */
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* 메인 박스 */
+.main-container {
+    background: #ffffff;
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 40px 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+
+/* 제목 */
+.main-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: #2b5876;
+}
+
+/* 버튼 영역 */
+.main-actions {
+    display: flex;
+    justify-content: center;
+    gap: 50px;          /* ⭐ 기존보다 확 늘림 */
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+
+/* 버튼 통일 */
+.main-actions button {
+    min-width: 220px;
+    padding: 16px 20px;
+    font-size: 15px;
+    border-radius: 12px;
+}
+/* =========================
+   다운로드 링크 (CSV / PDF)
+========================= */
+.download-link {
+    display: inline-block;
+    padding: 10px 18px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff !important;
+    text-decoration: none;
+    transition: all 0.25s ease;
+}
+
+/* CSV 다운로드 */
+.download-link.csv {
+    background: linear-gradient(135deg, #1e90ff, #4facfe);
+    padding: 10px 18px
+}
+
+/* PDF 다운로드 */
+.download-link.pdf {
+    background: linear-gradient(135deg, #2b5876, #4e4376);
+    padding: 10px 18px
+}
+
+/* hover 효과 */
+.download-link:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 14px rgba(0,0,0,0.15);
+    text-decoration: none;
+}
+/* 다운로드 버튼 묶음 */
+.download-cell {
+    text-align: center;
+    padding: 16px 0;
+}
+
+/* 버튼 간 간격 */
+.download-cell .download-link {
+    margin: 0 12px;   /* ⭐ 버튼 사이 간격 */
+}
+

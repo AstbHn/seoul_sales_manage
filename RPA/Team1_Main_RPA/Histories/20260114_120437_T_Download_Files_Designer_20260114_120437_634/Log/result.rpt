@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Result id="f5fbb075-1058-4c53-a607-c931b439040f" name="T_Download_Files" result="Pass" detail="{}" start="2026-01-14T03:04:41.466" end="2026-01-14T03:04:45.703" jobId="Designer_20260114_120437_634">
+  <Step id="S71b7fb51b3cb4780aab9fa142f69cfef" taskName="T_Download_Files" type="Net" name="OpenBrowser" displayName="OpenBrowser" callDepth="1" depth="1" num="19" result="Pass" start="2026-01-14T03:04:41.535" end="2026-01-14T03:04:45.692" displayTime="4.2s">
+    <Variables>
+      <Variable name="RESULT" scope="System" declareType="Any" isChanged="false" isChangable="true" runtimeType="Any" value="&lt;null&gt;" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="--Ignore--" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="RESULT : " runtimeType="Any" key="HTML_BrowserID" displayKey="Browser ID" visible="true" required="false" />
+      <Property value="'www.naver.com'" runtimeType="String" key="HTML_URL" displayKey="URL" visible="true" required="true" />
+      <Property value="true" runtimeType="Boolean" key="HTML_Maximize" displayKey="Maximize" visible="true" required="false" />
+      <Property value="3" runtimeType="Integer" key="HTML_WaitTimeSec" displayKey="WaitTime(Sec)" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <JobInfo>
+    <Info name="Bot Version" value="3.1.125.00925" />
+    <Info name="Resolution" value="3520 x 1080" />
+    <Info name="Language" value="한국어 (대한민국)" />
+    <Info name="BotID" value="S-DESIGNER-QNF7B" />
+  </JobInfo>
+</Result>

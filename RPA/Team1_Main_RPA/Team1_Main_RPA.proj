@@ -1,0 +1,76 @@
+<Project id="eb621d1c-5836-449a-a89e-38b4a3f47ead" namespace="" name="Team1_Main_RPA" category="project" workType="foreground" version="1.00" lastPublishedDate="" lastPublishedBy="" createdDate="2025-12-22 13:55:37" createdBy="" latestProcess="T_Send_Email" designerVersion="3.1.125.01231" DesignedBy="">
+  <SharedTask isExpended="false" />
+  <NormalTask isExpended="true">
+    <Group category="NormalTaskGroup" isChanged="Y" desc="" isExpended="false" name="Predict">
+      <LinkItem id="f5fbb075-1058-4c53-a607-c931b439040f" category="NormalTask" isChanged="Y" desc="" stepCount="20" name="T_Download_Files">
+        <Properties />
+      </LinkItem>
+      <LinkItem id="0a26ebd0-9be9-4b98-bf97-94fa0587de92" category="NormalTask" isChanged="Y" desc="" stepCount="8" name="T_Predict_Main">
+        <Properties />
+      </LinkItem>
+    </Group>
+    <Group category="NormalTaskGroup" isChanged="Y" desc="" isExpended="true" name="Process">
+      <LinkItem id="5321d6cd-80eb-4b5f-8cb9-8d5351b7e1cc" category="NormalTask" isChanged="Y" desc="" stepCount="15" name="T_Get_Raw_CSV">
+        <Properties />
+      </LinkItem>
+      <LinkItem id="644595fd-ab5e-4854-9e71-cb7dce895187" category="NormalTask" isChanged="Y" desc="" stepCount="3" name="T_Open_Project">
+        <Properties />
+      </LinkItem>
+      <LinkItem id="fe663838-972c-4ed6-9cef-39bc3c23799b" category="NormalTask" isChanged="Y" desc="" stepCount="1" name="T_Send_Email">
+        <Properties />
+      </LinkItem>
+      <LinkItem id="7a2a3b22-779a-4234-9c9e-55774e5b3686" category="NormalTask" isChanged="Y" desc="" stepCount="7" name="T_Server_Boot">
+        <Properties />
+      </LinkItem>
+    </Group>
+    <Group category="NormalTaskGroup" isChanged="Y" desc="" isExpended="false" name="Update">
+      <LinkItem id="e5ade04a-3c0e-496e-8e56-39d53919b786" category="NormalTask" isChanged="Y" desc="" stepCount="10" name="T_CSV">
+        <Properties />
+      </LinkItem>
+      <LinkItem id="48a5d123-280a-4f56-9c80-4f60da3084d9" category="NormalTask" isChanged="Y" desc="" stepCount="15" name="T_Input_User">
+        <Properties />
+      </LinkItem>
+      <LinkItem id="e703c5cc-9693-4d62-952c-267168321362" category="NormalTask" isChanged="Y" desc="" stepCount="12" name="T_Json">
+        <Properties />
+      </LinkItem>
+      <LinkItem id="cdc7fe01-bcdc-4495-9051-ae3ddb751982" category="NormalTask" isChanged="Y" desc="" stepCount="13" name="T_OCR">
+        <Properties />
+      </LinkItem>
+      <LinkItem id="34016410-9635-4d0b-8fce-82a174374050" category="NormalTask" isChanged="Y" desc="" stepCount="6" name="T_Update_Main">
+        <Properties />
+      </LinkItem>
+    </Group>
+  </NormalTask>
+  <Event isExpended="false" />
+  <Process isExpended="true">
+    <LinkItem id="3745e8e7-3d51-443e-b58a-4ac32a5f16c5" category="Process" isChanged="Y" desc="default process" stepCount="6" name="P_Team1_Main_RPA">
+      <Properties />
+    </LinkItem>
+  </Process>
+  <CustomLibraries isExpended="false" />
+  <LibraryTemplate isExpended="false" />
+  <Resources isExpended="false" />
+  <RemoteProcess isExpended="false" />
+  <RecorderData isExpended="false" />
+  <Asset />
+  <Library />
+  <Variables>
+    <Variable name="Drag_Value" scope="Global" valueType="Any" formatType="Any" initValue="" desc="" colorValue="#FF62CDFF" showMarker="False" />
+  </Variables>
+  <Properties>
+    <Property key="PlayOption_StepInterval" controlType="Int32" valueType="System.Int32" formatType="Integer" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="1" />
+    <Property key="PlayOption_DisableDrawBounds" controlType="Boolean" valueType="System.Boolean" formatType="Boolean" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="False" />
+    <Property key="PlayOption_InvokeFirst" controlType="Boolean" valueType="System.Boolean" formatType="Boolean" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="False" />
+    <Property key="PlayOption_AllowUploadDumpScreenResult" controlType="Boolean" valueType="System.Boolean" formatType="Boolean" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="False" />
+  </Properties>
+  <DisplayLibraries>
+    <string>Flow</string>
+    <string>Win</string>
+    <string>Net</string>
+    <string>Excel</string>
+    <string>Desktop</string>
+    <string>Chrome</string>
+    <string>ImageRecognition</string>
+    <string>DataConverter</string>
+  </DisplayLibraries>
+</Project>

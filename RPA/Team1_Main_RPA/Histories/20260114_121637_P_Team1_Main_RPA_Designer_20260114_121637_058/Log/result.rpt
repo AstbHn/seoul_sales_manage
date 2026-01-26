@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Result id="3745e8e7-3d51-443e-b58a-4ac32a5f16c5" name="P_Team1_Main_RPA" result="Stop" detail="Process: P_Team1_Main_RPA&#xA;&#xA;Process: P_Team1_Main_RPA&#xA;Task: T_Get_Raw_CSV&#xA;Step: ChromeOpen (1/15)&#xA;브라우저를 찾을 수 없습니다.&#xA;브라우저를 생성 해주세요.&#xA;&#xA;-- Recent Warning Messages --&#xA;Process: P_Team1_Main_RPA&#xA;Task: T_Get_Raw_CSV&#xA;Step: ChromeOpen (1/15)&#xA;&#xA;Error: 브라우저를 찾을 수 없습니다.&#xA;브라우저를 생성 해주세요." start="2026-01-14T03:16:40.382" end="2026-01-14T03:17:02.984" jobId="Designer_20260114_121637_058">
+  <Step id="S0afeea48946e46708c1bba717abad35b" taskName="P_Team1_Main_RPA" type="Desktop" name="IsFileExist" displayName="IsFileExist" callDepth="1" depth="1" num="1" result="Pass" start="2026-01-14T03:16:40.449" end="2026-01-14T03:16:40.626" displayTime="0.2s">
+    <Variables>
+      <Variable name="FE" scope="Normal" owner="P_Team1_Main_RPA" declareType="Any" isChanged="false" isChangable="true" runtimeType="Undefined" value="&lt;undefined&gt;" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="&lt;Too Long&gt; 'C:\\Users\\5Class_012\\Desktop\\project\\Team_1_Main\\Flask\\static\\raw_csv\\서울시_상권분석서비스(추정매출-상권)_ ... 10 more" runtimeType="String" key="Command_Path" displayKey="Path" visible="true" required="true" />
+      <Property value="this.FE : false" runtimeType="Boolean" key="Command_Output" displayKey="Output" visible="true" required="true" />
+    </Properties>
+  </Step>
+  <Step id="S6d3e6a3f92384964b540bc9553eefa04" taskName="P_Team1_Main_RPA" type="Flow" name="DecisionThen" displayName="IfThen" callDepth="1" depth="1" num="2" result="Pass" start="2026-01-14T03:16:40.634" end="2026-01-14T03:16:40.637" displayTime="0s">
+    <Variables>
+      <Variable name="FE" scope="Normal" owner="P_Team1_Main_RPA" declareType="Any" isChanged="false" isChangable="false" runtimeType="Boolean" value="false" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="this.FE== false" runtimeType="String" key="Conditions_Expression" displayKey="IfThen Condition" visible="false" required="true" />
+      <Property value="true" runtimeType="Boolean" key="Conditions_CombineCondition" displayKey="Combine Condition" visible="false" required="false" />
+      <Property value="true" runtimeType="Boolean" key="Conditions_Expression1" displayKey="Condition" visible="true" required="true" />
+      <Property value="" runtimeType="String" key="Conditions_AddCondition" displayKey="Add Condition" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="S459769e0a5b24b72911f8298a6bdfddc" taskName="P_Team1_Main_RPA" type="Flow" name="RunTask" displayName="RunTask ('T_Get_Raw_CSV')" callDepth="1" depth="2" num="3" result="Pass" start="2026-01-14T03:16:40.650" end="2026-01-14T03:16:40.676" displayTime="0s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="T_Get_Raw_CSV" runtimeType="String" key="Conditions_TaskName" displayKey="Task Name" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="S9eddaecfb54e4c3eae7025a932969325" taskName="T_Get_Raw_CSV" type="Chrome" name="ChromeOpen" displayName="ChromeOpen" callDepth="2" depth="1" num="1" result="Fail" start="2026-01-14T03:16:40.682" end="2026-01-14T03:17:02.931" displayTime="22.2s">
+    <Variables>
+      <Variable name="RESULT" scope="System" declareType="Any" isChanged="false" isChangable="true" runtimeType="Any" value="&lt;null&gt;" />
+      <Variable name="data_URL" scope="Normal" owner="T_Get_Raw_CSV" declareType="Any" isChanged="false" isChangable="true" runtimeType="String" value="'https://www.data.go.kr/'" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="RESULT : " runtimeType="Any" key="CHROME_Browser" displayKey="Browser" visible="true" required="true" />
+      <Property value="Chrome" runtimeType="String" key="CHROME_TypeOfBrowser" displayKey="Browser Type" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="CHROME_BrowserType" displayKey="Headless Mode" visible="true" required="false" />
+      <Property value="'https://www.data.go.kr/'" runtimeType="String" key="CHROME_URL" displayKey="URL" visible="true" required="true" />
+      <Property value="" runtimeType="String" key="CHROME_ChromePath" displayKey="Browser Path" visible="true" required="false" />
+      <Property value="true" runtimeType="Boolean" key="CHROME_Maximize" displayKey="Maximize" visible="true" required="false" />
+      <Property value="60" runtimeType="Integer" key="CHROME_WaitTimeSec" displayKey="Page Load Timeout" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_ExtensionList" displayKey="Included Extensions" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_DownloadPath" displayKey="Download Path" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="CHROME_WindowsAccountPermissions" displayKey="Windows Account Permissions" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_UserAgent" displayKey="User Agent" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="CHROME_DisableAutomationControl" displayKey="Disable AutomationControl" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_UserLaunchOptions" displayKey="Launch Options" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="Sd1bffa724d174c52b8aadcf38591a559" taskName="T_Get_Raw_CSV" type="Flow" name="InternalData" displayName="End-RunTask ('T_Get_Raw_CSV') / Return To 'P_Team1_Main_RPA'" callDepth="2" depth="1" num="" result="Internal" start="2026-01-14T03:17:02.982" end="2026-01-14T03:17:02.982" displayTime="0s" />
+  <JobInfo>
+    <Info name="Bot Version" value="3.1.125.00925" />
+    <Info name="Resolution" value="3520 x 1080" />
+    <Info name="Language" value="한국어 (대한민국)" />
+    <Info name="BotID" value="S-DESIGNER-QNF7B" />
+  </JobInfo>
+</Result>

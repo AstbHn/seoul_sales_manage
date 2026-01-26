@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>예측 페이지</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script th:src="@{/js/analytics.js}"></script>
+</head>
+<body onload="trackPage('preview')">
+
+<header>
+    <div class="system-title">서울시 상권 음식점 예측·분석 시스템</div>
+    <div class="page-title">매출 예측</div>
+</header>
+
+<div class="to_main">
+    <a th:href="@{/viewpage}" onclick="trackPage('viewpage')">기존 자료 차트 & 리스트</a>
+    |
+    <a th:href="@{/update_data}" onclick="trackPage('update_data')">기존 자료 수정</a>
+    |
+    <a th:href="@{/}" onclick="trackPage('index')">메인화면</a>
+</div>
+<hr>
+
+<form th:action="@{/predict_data}" method="post" class="to_main">
+    <div>
+        <label>년도</label>
+        <input type="number" name="year" required />
+    </div>
+
+    <div>
+        <label>분기</label>
+        <select name="quarter">
+            <option value="1">1분기</option>
+            <option value="2">2분기</option>
+            <option value="3">3분기</option>
+            <option value="4">4분기</option>
+        </select>
+    </div>
+
+    <div>
+        <label>업종</label>
+        <select name="sectorName" required>
+            <option value="">선택</option>
+            <option value="한식음식점">한식음식점</option>
+            <option value="일식음식점">일식음식점</option>
+            <option value="양식음식점">양식음식점</option>
+            <option value="중식음식점">중식음식점</option>
+            <option value="패스트푸드점">패스트푸드점</option>
+        </select>
+    </div>
+
+    <button type="submit"
+            onclick="trackPredict(this.form.sectorName.value)">
+        예측하기
+    </button>
+</form>
+
+<hr>
+
+<section th:if="${predict != null}">
+    <table>
+        <tr>
+            <th colspan="5">예측 결과</th>
+        </tr>
+        <tr>
+            <td><span th:text="${predict.year}"></span>년</td>
+            <td><span th:text="${predict.quarter}"></span>분기</td>
+            <td><span th:text="${predict.sector_name}"></span></td>
+            <td><span th:text="${predict.pred_sales_amount_fmt}"></span> 원</td>
+            <td><span th:text="${predict.pred_sales_count_fmt}"></span> 건</td>
+        </tr>
+        <tr>
+            <td colspan="5" class="download-cell">
+                <a th:href="@{http://localhost:5678/download-csv}"
+                   class="download-link csv"
+                   onclick="trackDownload('csv')">
+                    CSV 다운로드
+                </a>
+                <a th:href="@{http://localhost:5678/download-pdf}"
+                   class="download-link pdf"
+                   onclick="trackDownload('pdf')">
+                    PDF 다운로드
+                </a>
+            </td>
+        </tr>
+    </table>
+    <div id="chart-area">
+        <div class="chart-box">
+            <canvas id="salesChart"></canvas>
+        </div>
+        <div class="chart-box">
+            <canvas id="countChart"></canvas>
+        </div>
+    </div>
+
+    <script th:inline="javascript">
+        const chartData = [[${chartDataJson}]];
+        if (chartData) {
+            new Chart(document.getElementById('salesChart'), {
+                type: 'line',
+                data: chartData.sales,
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    aspectRatio: 1.3,
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: '업종별 매출액 추이 (예측 포함)'
+                        }
+                    },
+                    layout: {
+                        padding: {
+                            top: 20,
+                            bottom: 20
+                        }
+                    }
+                }
+            });
+
+            new Chart(document.getElementById('countChart'), {
+                type: 'line',
+                data: chartData.count,
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    aspectRatio: 1.3,
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: '업종별 매출건수 추이 (예측 포함)'
+                        }
+                    },
+                    layout: {
+                        padding: {
+                            top: 20,
+                            bottom: 20
+                        }
+                    }
+                }
+            });
+        }
+    </script>
+
+</section>
+
+</body>
+</html>

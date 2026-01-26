@@ -1,0 +1,493 @@
+﻿2026-01-14 11:50:02,635 [T1] INFO  EngineStarter
+BOT Engine Start - v3.1.125.00925 at 2026-01-14 오전 11:50:02
+EngineID: D_20260114_115001_761
+PID : 12752
+PPID: 1932
+Working Directory: C:\Users\5Class_012\AppData\Roaming\Brity RPA Designer
+
+2026-01-14 11:50:02,653 [T1] INFO  EngineStarter
+System Language: ko-KR
+Resolution: 3520 x 1080
+
+2026-01-14 11:50:02,887 [T1] INFO  Config
+Initialize Config
+
+2026-01-14 11:50:02,929 [T1] DEBUG Config
+Config Loaded
+
+2026-01-14 11:50:02,929 [T1] DEBUG Config
+Backup config file.
+
+2026-01-14 11:50:02,939 [T1] INFO  Config
+Orchestrator Service => https://bwrpa.samsungsds.com:8777
+
+2026-01-14 11:50:02,943 [T1] INFO  Config
+Initialize Resource Config
+
+2026-01-14 11:50:02,972 [T1] DEBUG Config
+Refresh Language Information
+
+2026-01-14 11:50:03,055 [T1] INFO  Config
+All Config Initialized.
+
+2026-01-14 11:50:03,062 [T1] DEBUG KeyManager
+Initialize KeyManager
+
+2026-01-14 11:50:03,064 [T1] DEBUG KeyManager
+Load device unique id.
+
+2026-01-14 11:50:03,071 [T1] DEBUG KeyManager
+Device ID is initialized.
+
+2026-01-14 11:50:03,075 [T1] INFO  Config
+Activated License Type : StandAloneDesigner
+
+2026-01-14 11:50:03,160 [T5] DEBUG JobService
+Connect to agent service
+
+2026-01-14 11:50:03,190 [T1] DEBUG ApplicationInitializer
+InitMode: Thread
+
+2026-01-14 11:50:03,196 [T5] DEBUG JobService
+JobService URL : net.tcp://127.0.0.1:59001/rpa/agent
+
+2026-01-14 11:50:03,196 [T5] DEBUG JobService
+Open connection
+
+2026-01-14 11:50:03,202 [T1] INFO  LibraryManager
+Load Libraries - Started
+
+2026-01-14 11:50:03,213 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Chrome
+
+2026-01-14 11:50:03,222 [T5] DEBUG JobService
+Register engine to agent
+
+2026-01-14 11:50:03,246 [T5] DEBUG JobService
+Engine is connected to agent service.
+
+2026-01-14 11:50:03,246 [T5] DEBUG JobService
+Owner Process PID: 1932
+
+2026-01-14 11:50:03,249 [T5] INFO  JobService
+Start monitoring owner process is terminated.
+
+2026-01-14 11:50:03,445 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Desktop
+
+2026-01-14 11:50:03,686 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Excel
+
+2026-01-14 11:50:03,688 [T8] INFO  JobService
+Start Job: T_Download_Files (Foreground)
+{
+  "JobType": 1,
+  "State": 0,
+  "IsRunning": false,
+  "ResultMessage": null,
+  "StartTime": "2026-01-14 11:50:01",
+  "EndTime": null,
+  "JobId": "Designer_20260114_115001_456",
+  "UserAuthentication": null,
+  "ProcessPath": "C:\\Users\\5Class_012\\Desktop\\project\\Team_1_Main\\RPA\\Team1_Main_RPA\\T_Download_Files.proc",
+  "ProcessId": "f5fbb075-1058-4c53-a607-c931b439040f",
+  "ProcessVer": "",
+  "ProcessArgs": "S71b7fb51b3cb4780aab9fa142f69cfef;S71b7fb51b3cb4780aab9fa142f69cfef;False",
+  "RequesterType": 3,
+  "RequesterId": "designer",
+  "RequesterPID": 1932,
+  "OptionsJsonString": null,
+  "TimeoutSec": 0,
+  "EngineID": "D_20260114_115001_761",
+  "EnginePID": 0,
+  "EngineRecommededVersion": "",
+  "JobWorkDir": "C:\\Users\\5Class_012\\Desktop\\project\\Team_1_Main\\RPA\\Team1_Main_RPA\\Histories\\20260114_115001_T_Download_Files_Designer_20260114_115001_456",
+  "JobLogDir": "C:\\Users\\5Class_012\\Desktop\\project\\Team_1_Main\\RPA\\Team1_Main_RPA\\Histories\\20260114_115001_T_Download_Files_Designer_20260114_115001_456\\Log",
+  "JobScreenshotDir": "C:\\Users\\5Class_012\\Desktop\\project\\Team_1_Main\\RPA\\Team1_Main_RPA\\Histories\\20260114_115001_T_Download_Files_Designer_20260114_115001_456\\Log\\Screenshot"
+}
+
+2026-01-14 11:50:03,851 [T4] DEBUG JobService
+Waiting library loading...
+
+2026-01-14 11:50:03,861 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Flow
+
+2026-01-14 11:50:03,982 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.IE
+
+2026-01-14 11:50:04,075 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.ImageConverter
+
+2026-01-14 11:50:04,137 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.ImageRecognition
+
+2026-01-14 11:50:04,335 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.MicrosoftOCR
+
+2026-01-14 11:50:04,394 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Net
+
+2026-01-14 11:50:04,475 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Orchestra
+
+2026-01-14 11:50:04,553 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.ProcessFlow
+
+2026-01-14 11:50:04,636 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.SAP
+
+2026-01-14 11:50:04,724 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Web
+
+2026-01-14 11:50:04,834 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Win
+
+2026-01-14 11:50:04,963 [T1] INFO  ScreenCapture
+Default Screen Capture Bounds: 0,0,3520,1080
+
+2026-01-14 11:50:04,997 [T1] DEBUG AddInLoader
+Load Assembly : BrityRPA.AddIn.NativeApp
+
+2026-01-14 11:50:05,104 [T1] DEBUG AddInLoader
+Load Assembly : BrityWorks.AddIn.Outlook
+
+2026-01-14 11:50:05,171 [T1] DEBUG AddInLoader
+Load Assembly : BrityWorks.AddIn.Pdf
+
+2026-01-14 11:50:05,246 [T1] DEBUG LibraryManager
+Load Library - Chrome
+
+2026-01-14 11:50:05,262 [T1] DEBUG LibraryManager
+Load Library - Desktop
+
+2026-01-14 11:50:05,277 [T1] DEBUG LibraryManager
+Load Library - Excel
+
+2026-01-14 11:50:05,292 [T1] DEBUG LibraryManager
+Load Library - Flow
+
+2026-01-14 11:50:05,308 [T1] DEBUG LibraryManager
+Load Library - IE
+
+2026-01-14 11:50:05,324 [T1] DEBUG LibraryManager
+Load Library - ImageConverter
+
+2026-01-14 11:50:05,340 [T1] DEBUG LibraryManager
+Load Library - ImageRecognition
+
+2026-01-14 11:50:05,356 [T1] DEBUG LibraryManager
+Load Library - MicrosoftOCR
+
+2026-01-14 11:50:05,371 [T1] DEBUG LibraryManager
+Load Library - NativeApp
+
+2026-01-14 11:50:05,387 [T1] DEBUG LibraryManager
+Load Library - Net
+
+2026-01-14 11:50:05,402 [T1] DEBUG LibraryManager
+Load Library - Orchestra
+
+2026-01-14 11:50:05,418 [T1] DEBUG LibraryManager
+Load Library - Outlook
+
+2026-01-14 11:50:05,434 [T1] DEBUG LibraryManager
+Load Library - Pdf
+
+2026-01-14 11:50:05,450 [T1] DEBUG LibraryManager
+Load Library - SAP
+
+2026-01-14 11:50:05,466 [T1] DEBUG LibraryManager
+Load Library - Web
+
+2026-01-14 11:50:05,481 [T1] DEBUG LibraryManager
+Load Library - Win
+
+2026-01-14 11:50:05,497 [T1] DEBUG LibraryManager
+Load Library - WorkFlow
+
+2026-01-14 11:50:05,502 [T1] DEBUG LibraryManager
+Load built-in script libraries
+
+2026-01-14 11:50:05,776 [T1] INFO  LibraryManager
+Load Libraries - Completed.
+
+2026-01-14 11:50:05,789 [T1] INFO  App
+Launch Arguments: Total: 6 |  -eid D_20260114_115001_761 -runtype ProcRunner -ppid 1932
+
+2026-01-14 11:50:05,790 [T1] DEBUG Config
+Refresh Language Information
+
+2026-01-14 11:50:05,791 [T1] DEBUG LibraryManager
+LibraryManager Initialized.
+
+2026-01-14 11:50:05,799 [T4] DEBUG Config
+Reload User Settings
+
+2026-01-14 11:50:05,810 [T4] INFO  JobService
+Config Loading Completed.
+
+2026-01-14 11:50:05,810 [T4] DEBUG JobService
+Config Loading Time: 1958 ms.
+
+2026-01-14 11:50:05,815 [T4] DEBUG JobService
+Check Shared Token
+
+2026-01-14 11:50:05,816 [T4] DEBUG TokenManager
+Load connection token
+
+2026-01-14 11:50:05,819 [T4] DEBUG TokenManager
+Clear Connection Token - No Shared Token
+
+2026-01-14 11:50:05,826 [T4] DEBUG ServerInformationClient
+get server features for engine bot from config.
+
+2026-01-14 11:50:05,828 [T4] INFO  Config
+Try to load server features from config.
+
+2026-01-14 11:50:05,831 [T4] DEBUG ServerInformationClient
+get server features for engine bot from config.
+
+2026-01-14 11:50:05,832 [T4] INFO  TokenManager
+SecurityType in server feature : v2
+
+2026-01-14 11:50:05,832 [T4] INFO  TokenManager
+SecurityType : v2
+
+2026-01-14 11:50:05,834 [T4] INFO  JobService
+Shared Token - No Token
+
+2026-01-14 11:50:05,839 [T4] INFO  JobManager
+Create JobManager instance for job T_Download_Files(Designer_20260114_115001_456)
+
+2026-01-14 11:50:05,845 [T4] INFO  JobRequest
+Job ID : Designer_20260114_115001_456
+Project Path  : C:\Users\5Class_012\Desktop\project\Team_1_Main\RPA\Team1_Main_RPA\Team1_Main_RPA.proj
+Process Name  : T_Download_Files
+Engine Mode   : Designer
+Requester Type: Designer
+Requester PID : 1932
+
+2026-01-14 11:50:05,848 [T6] INFO  JobRequest
+Start Callback Sender
+
+2026-01-14 11:50:05,848 [T6] DEBUG JobRequest
+Step Callback Interval: 500
+
+2026-01-14 11:50:05,896 [T4] DEBUG ProjectManager
+Set Project Information
+
+2026-01-14 11:50:05,928 [T4] INFO  PlayOptionManager
+PlayOption
+- Step Interval : 1
+- Disable DrawBounds : False
+- Invoke First : False
+- Allow Upload of DumpScreen results : False
+
+2026-01-14 11:50:05,929 [T4] INFO  JobRunner
+Initialize Script Engine
+
+2026-01-14 11:50:05,947 [T10-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: Initializing
+##############################################################
+
+
+2026-01-14 11:50:05,969 [T6] DEBUG JobRequest
+Callback - State: Initializing
+
+
+2026-01-14 11:50:06,863 [T10-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: Ready
+##############################################################
+
+
+2026-01-14 11:50:06,872 [T6] DEBUG JobRequest
+Callback - State: Ready
+
+
+2026-01-14 11:50:06,877 [T4] INFO  JobRunnerHook
+HotKey Hook Started
+
+2026-01-14 11:50:06,878 [T4] INFO  JobRequest
+##############################################################
+### STATE: Starting
+##############################################################
+
+
+2026-01-14 11:50:06,880 [T10-ScriptEngine] INFO  JobRunner
+RunProcess start
+
+2026-01-14 11:50:06,882 [T10-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: Running
+##############################################################
+
+
+2026-01-14 11:50:06,882 [T10-ScriptEngine] INFO  JobRequest
+Last job life cycle state: Running
+
+2026-01-14 11:50:06,888 [T6] DEBUG JobRequest
+Callback - State: Starting
+
+
+2026-01-14 11:50:06,889 [T6] DEBUG JobRequest
+Callback - State: Running
+
+
+2026-01-14 11:50:08,203 [T10-ScriptEngine] DEBUG ScreenCapture
+DirectX Screen Capture Initialized.
+
+2026-01-14 11:50:08,288 [T10-ScriptEngine] DEBUG JobRunner
+DirectX ScreenCapture Checked.
+
+2026-01-14 11:50:08,322 [T10-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: StartProcess - T_Download_Files
+##############################################################
+f5fbb075-1058-4c53-a607-c931b439040f
+T_Download_Files
+
+
+2026-01-14 11:50:08,388 [T10-ScriptEngine] INFO  JobRequest
+**************************************************************
+*** TASK: T_Download_Files
+**************************************************************
+ - STEP 1: S71b7fb51b3cb4780aab9fa142f69cfef (19/20) - (1/1)
+ - [19] OpenBrowser
+
+
+2026-01-14 11:50:08,586 [T10-ScriptEngine] INFO  UiaAppHelper
+Open App: C:\Program Files\Internet Explorer\iexplore.exe
+Arguments: C:\Users\5Class_012\Desktop\Project_Result\undefined
+Derived App: iexplore
+
+2026-01-14 11:50:08,761 [T10-ScriptEngine] INFO  UiaAppHelper
+Process 'iexplore'(pid: 2948) Started.
+
+2026-01-14 11:50:09,277 [T10-ScriptEngine] WARN  UiaAppHelper
+The newly launched process(PID:2948) is immediately terminated.
+
+2026-01-14 11:50:12,480 [T10-ScriptEngine] DEBUG UiaAppHelper
+Timeout - The number of new target application windows: 0
+
+2026-01-14 11:50:12,481 [T10-ScriptEngine] ERROR UiaAppHelper
+앱 프로세스가 시작되었으나 실행 상태를 확인할 수 없습니다.
+앱 실행을 위한 명령어와 실행인자, 실행 확인을 위한 검사 속성을 확인해주세요.
+이미 실행 중인 앱이 명령을 처리하거나 새로 시작된 앱이 즉시 종료되는 경우, 앱의 실행을 검사하지 않도록 'Derived App'을 null로 설정하세요.
+
+ - Command: C:\Program Files\Internet Explorer\iexplore.exe
+ - Arguments: C:\Users\5Class_012\Desktop\Project_Result\undefined
+ - Derived App: iexplore
+ - WaitTime: 3
+
+2026-01-14 11:50:12,484 [T10-ScriptEngine] WARN  ScriptSupport
+CatchException: 앱 프로세스가 시작되었으나 실행 상태를 확인할 수 없습니다.
+앱 실행을 위한 명령어와 실행인자, 실행 확인을 위한 검사 속성을 확인해주세요.
+이미 실행 중인 앱이 명령을 처리하거나 새로 시작된 앱이 즉시 종료되는 경우, 앱의 실행을 검사하지 않도록 'Derived App'을 null로 설정하세요.
+
+ - Command: C:\Program Files\Internet Explorer\iexplore.exe
+ - Arguments: C:\Users\5Class_012\Desktop\Project_Result\undefined
+ - Derived App: iexplore
+ - WaitTime: 3
+
+2026-01-14 11:50:12,485 [T10-ScriptEngine] INFO  JobRunner
+[PASS] TASK: T_Download_Files
+
+2026-01-14 11:50:12,502 [T10-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: EndProcess - T_Download_Files
+##############################################################
+f5fbb075-1058-4c53-a607-c931b439040f
+T_Download_Files
+
+
+2026-01-14 11:50:12,531 [T10-ScriptEngine] INFO  JobRunner
+RunProcess - Job Result: {}
+
+2026-01-14 11:50:12,532 [T10-ScriptEngine] DEBUG JobManager
+Set Result State: Completed
+
+2026-01-14 11:50:12,539 [T10-ScriptEngine] INFO  JobRunner
+Make report.
+
+2026-01-14 11:50:12,594 [T10-ScriptEngine] INFO  JobRunner
+Start to clean up resources.
+
+2026-01-14 11:50:12,595 [T11] DEBUG JobRunner
+Start timer for checking the job to be completed.
+
+2026-01-14 11:50:12,595 [T10-ScriptEngine] DEBUG JobRunner
+OnProcessCompleted
+
+2026-01-14 11:50:12,596 [T10-ScriptEngine] INFO  JobRunner
+Start to clean up resources.
+
+2026-01-14 11:50:12,598 [T10-ScriptEngine] DEBUG JobRunner
+Remove all libraries
+
+2026-01-14 11:50:12,611 [T10-ScriptEngine] DEBUG NetPlayer
+WebPlayer OnDispose
+
+2026-01-14 11:50:12,613 [T10-ScriptEngine] DEBUG WebPlayer
+WebPlayer OnDispose : Do Nothing
+
+2026-01-14 11:50:12,620 [T10-ScriptEngine] DEBUG UiaAppHelper
+WinHelper DisposeAppList Count: 0
+
+2026-01-14 11:50:12,620 [T10-ScriptEngine] INFO  JobRunner
+All Resources Clear
+
+2026-01-14 11:50:12,624 [T10-ScriptEngine] DEBUG JobRunner
+OnCompleted
+
+2026-01-14 11:50:12,624 [T10-ScriptEngine] DEBUG JobRunner
+SendJobResult: Completed
+
+2026-01-14 11:50:12,625 [T10-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: Completed
+##############################################################
+{}
+
+
+2026-01-14 11:50:12,625 [T10-ScriptEngine] INFO  JobRequest
+Last job life cycle state: Completed
+
+2026-01-14 11:50:12,628 [T10-ScriptEngine] DEBUG JobDBManager
+Set last life-cycle state: Completed - {}
+
+2026-01-14 11:50:12,746 [T10-ScriptEngine] INFO  JobRequest
+##############################################################
+### JOB COMPLETED
+##############################################################
+
+
+2026-01-14 11:50:12,756 [T6] DEBUG JobRequest
+Callback - State: Completed
+{}
+
+2026-01-14 11:50:12,757 [T6] INFO  JobRequest
+Callback - EngineClosed
+
+2026-01-14 11:50:12,758 [T6] INFO  JobService
+Disconnect agent service
+
+2026-01-14 11:50:12,761 [T6] DEBUG JobRequest
+End of Callback Sender
+
+2026-01-14 11:50:12,812 [T1] INFO  JobService
+Exit - Shutdown Engine BOT
+
+2026-01-14 11:50:12,812 [T1] INFO  EngineStarter
+EngineBOT MainWindow Closing
+
+2026-01-14 11:50:12,813 [T1] INFO  EngineStarter
+EngineBOT MainWindow Closed
+
+2026-01-14 11:50:12,815 [T1] INFO  EngineStarter
+EngineBOT Application Exit
+
+2026-01-14 11:50:12,824 [T10-ScriptEngine] INFO  JobRunner
+RunProcess end
+

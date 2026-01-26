@@ -1,0 +1,2712 @@
+﻿2026-01-14 12:17:31,165 [T1] INFO  EngineStarter
+BOT Engine Start - v3.1.125.00925 at 2026-01-14 오후 12:17:31
+EngineID: D_20260114_121730_373
+PID : 10424
+PPID: 1932
+Working Directory: C:\Users\5Class_012\AppData\Roaming\Brity RPA Designer
+
+2026-01-14 12:17:31,181 [T1] INFO  EngineStarter
+System Language: ko-KR
+Resolution: 3520 x 1080
+
+2026-01-14 12:17:31,416 [T1] INFO  Config
+Initialize Config
+
+2026-01-14 12:17:31,456 [T1] DEBUG Config
+Config Loaded
+
+2026-01-14 12:17:31,457 [T1] DEBUG Config
+Backup config file.
+
+2026-01-14 12:17:31,466 [T1] INFO  Config
+Orchestrator Service => https://bwrpa.samsungsds.com:8777
+
+2026-01-14 12:17:31,470 [T1] INFO  Config
+Initialize Resource Config
+
+2026-01-14 12:17:31,501 [T1] DEBUG Config
+Refresh Language Information
+
+2026-01-14 12:17:31,607 [T1] INFO  Config
+All Config Initialized.
+
+2026-01-14 12:17:31,614 [T1] DEBUG KeyManager
+Initialize KeyManager
+
+2026-01-14 12:17:31,616 [T1] DEBUG KeyManager
+Load device unique id.
+
+2026-01-14 12:17:31,624 [T1] DEBUG KeyManager
+Device ID is initialized.
+
+2026-01-14 12:17:31,627 [T1] INFO  Config
+Activated License Type : StandAloneDesigner
+
+2026-01-14 12:17:31,696 [T4] DEBUG JobService
+Connect to agent service
+
+2026-01-14 12:17:31,726 [T1] DEBUG ApplicationInitializer
+InitMode: Thread
+
+2026-01-14 12:17:31,732 [T4] DEBUG JobService
+JobService URL : net.tcp://127.0.0.1:59001/rpa/agent
+
+2026-01-14 12:17:31,732 [T4] DEBUG JobService
+Open connection
+
+2026-01-14 12:17:31,738 [T1] INFO  LibraryManager
+Load Libraries - Started
+
+2026-01-14 12:17:31,748 [T4] DEBUG JobService
+Register engine to agent
+
+2026-01-14 12:17:31,749 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Chrome
+
+2026-01-14 12:17:31,762 [T4] DEBUG JobService
+Engine is connected to agent service.
+
+2026-01-14 12:17:31,762 [T4] DEBUG JobService
+Owner Process PID: 1932
+
+2026-01-14 12:17:31,765 [T4] INFO  JobService
+Start monitoring owner process is terminated.
+
+2026-01-14 12:17:31,950 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Desktop
+
+2026-01-14 12:17:32,103 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Excel
+
+2026-01-14 12:17:32,251 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Flow
+
+2026-01-14 12:17:32,355 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.IE
+
+2026-01-14 12:17:32,439 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.ImageConverter
+
+2026-01-14 12:17:32,494 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.ImageRecognition
+
+2026-01-14 12:17:32,674 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.MicrosoftOCR
+
+2026-01-14 12:17:32,731 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Net
+
+2026-01-14 12:17:32,814 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Orchestra
+
+2026-01-14 12:17:32,891 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.ProcessFlow
+
+2026-01-14 12:17:32,975 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.SAP
+
+2026-01-14 12:17:33,057 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Web
+
+2026-01-14 12:17:33,159 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Win
+
+2026-01-14 12:17:33,280 [T1] INFO  ScreenCapture
+Default Screen Capture Bounds: 0,0,3520,1080
+
+2026-01-14 12:17:33,312 [T1] DEBUG AddInLoader
+Load Assembly : BrityRPA.AddIn.NativeApp
+
+2026-01-14 12:17:33,419 [T1] DEBUG AddInLoader
+Load Assembly : BrityWorks.AddIn.Outlook
+
+2026-01-14 12:17:33,485 [T1] DEBUG AddInLoader
+Load Assembly : BrityWorks.AddIn.Pdf
+
+2026-01-14 12:17:33,569 [T1] DEBUG LibraryManager
+Load Library - Chrome
+
+2026-01-14 12:17:33,600 [T1] DEBUG LibraryManager
+Load Library - Desktop
+
+2026-01-14 12:17:33,615 [T1] DEBUG LibraryManager
+Load Library - Excel
+
+2026-01-14 12:17:33,630 [T1] DEBUG LibraryManager
+Load Library - Flow
+
+2026-01-14 12:17:33,646 [T1] DEBUG LibraryManager
+Load Library - IE
+
+2026-01-14 12:17:33,661 [T1] DEBUG LibraryManager
+Load Library - ImageConverter
+
+2026-01-14 12:17:33,676 [T1] DEBUG LibraryManager
+Load Library - ImageRecognition
+
+2026-01-14 12:17:33,692 [T1] DEBUG LibraryManager
+Load Library - MicrosoftOCR
+
+2026-01-14 12:17:33,708 [T1] DEBUG LibraryManager
+Load Library - NativeApp
+
+2026-01-14 12:17:33,723 [T1] DEBUG LibraryManager
+Load Library - Net
+
+2026-01-14 12:17:33,739 [T1] DEBUG LibraryManager
+Load Library - Orchestra
+
+2026-01-14 12:17:33,754 [T1] DEBUG LibraryManager
+Load Library - Outlook
+
+2026-01-14 12:17:33,770 [T1] DEBUG LibraryManager
+Load Library - Pdf
+
+2026-01-14 12:17:33,786 [T1] DEBUG LibraryManager
+Load Library - SAP
+
+2026-01-14 12:17:33,802 [T1] DEBUG LibraryManager
+Load Library - Web
+
+2026-01-14 12:17:33,818 [T1] DEBUG LibraryManager
+Load Library - Win
+
+2026-01-14 12:17:33,834 [T1] DEBUG LibraryManager
+Load Library - WorkFlow
+
+2026-01-14 12:17:33,839 [T1] DEBUG LibraryManager
+Load built-in script libraries
+
+2026-01-14 12:17:34,112 [T1] INFO  LibraryManager
+Load Libraries - Completed.
+
+2026-01-14 12:17:34,124 [T1] INFO  App
+Launch Arguments: Total: 6 |  -eid D_20260114_121730_373 -runtype ProcRunner -ppid 1932
+
+2026-01-14 12:17:34,125 [T1] DEBUG Config
+Refresh Language Information
+
+2026-01-14 12:17:34,125 [T1] DEBUG LibraryManager
+LibraryManager Initialized.
+
+2026-01-14 12:20:59,002 [T9] INFO  JobService
+Start Job: P_Team1_Main_RPA (Foreground)
+{
+  "JobType": 1,
+  "State": 0,
+  "IsRunning": false,
+  "ResultMessage": null,
+  "StartTime": "2026-01-14 12:20:58",
+  "EndTime": null,
+  "JobId": "Designer_20260114_122058_595",
+  "UserAuthentication": null,
+  "ProcessPath": "C:\\Users\\5Class_012\\Desktop\\project\\Team_1_Main\\RPA\\Team1_Main_RPA\\P_Team1_Main_RPA.proc",
+  "ProcessId": "3745e8e7-3d51-443e-b58a-4ac32a5f16c5",
+  "ProcessVer": "",
+  "ProcessArgs": null,
+  "RequesterType": 3,
+  "RequesterId": "designer",
+  "RequesterPID": 1932,
+  "OptionsJsonString": null,
+  "TimeoutSec": 0,
+  "EngineID": "D_20260114_121730_373",
+  "EnginePID": 0,
+  "EngineRecommededVersion": "",
+  "JobWorkDir": "C:\\Users\\5Class_012\\Desktop\\project\\Team_1_Main\\RPA\\Team1_Main_RPA\\Histories\\20260114_122058_P_Team1_Main_RPA_Designer_20260114_122058_595",
+  "JobLogDir": "C:\\Users\\5Class_012\\Desktop\\project\\Team_1_Main\\RPA\\Team1_Main_RPA\\Histories\\20260114_122058_P_Team1_Main_RPA_Designer_20260114_122058_595\\Log",
+  "JobScreenshotDir": "C:\\Users\\5Class_012\\Desktop\\project\\Team_1_Main\\RPA\\Team1_Main_RPA\\Histories\\20260114_122058_P_Team1_Main_RPA_Designer_20260114_122058_595\\Log\\Screenshot"
+}
+
+2026-01-14 12:20:59,175 [T10] DEBUG JobService
+Waiting library loading...
+
+2026-01-14 12:20:59,179 [T10] DEBUG Config
+Reload User Settings
+
+2026-01-14 12:20:59,182 [T10] INFO  JobService
+Config Loading Completed.
+
+2026-01-14 12:20:59,183 [T10] DEBUG JobService
+Config Loading Time: 7 ms.
+
+2026-01-14 12:20:59,188 [T10] DEBUG JobService
+Check Shared Token
+
+2026-01-14 12:20:59,189 [T10] DEBUG TokenManager
+Load connection token
+
+2026-01-14 12:20:59,194 [T10] DEBUG TokenManager
+Clear Connection Token - No Shared Token
+
+2026-01-14 12:20:59,202 [T10] DEBUG ServerInformationClient
+get server features for engine bot from config.
+
+2026-01-14 12:20:59,203 [T10] INFO  Config
+Try to load server features from config.
+
+2026-01-14 12:20:59,206 [T10] DEBUG ServerInformationClient
+get server features for engine bot from config.
+
+2026-01-14 12:20:59,207 [T10] INFO  TokenManager
+SecurityType in server feature : v2
+
+2026-01-14 12:20:59,208 [T10] INFO  TokenManager
+SecurityType : v2
+
+2026-01-14 12:20:59,210 [T10] INFO  JobService
+Shared Token - No Token
+
+2026-01-14 12:20:59,215 [T10] INFO  JobManager
+Create JobManager instance for job P_Team1_Main_RPA(Designer_20260114_122058_595)
+
+2026-01-14 12:20:59,222 [T10] INFO  JobRequest
+Job ID : Designer_20260114_122058_595
+Project Path  : C:\Users\5Class_012\Desktop\project\Team_1_Main\RPA\Team1_Main_RPA\Team1_Main_RPA.proj
+Process Name  : P_Team1_Main_RPA
+Engine Mode   : Designer
+Requester Type: Designer
+Requester PID : 1932
+
+2026-01-14 12:20:59,224 [T12] INFO  JobRequest
+Start Callback Sender
+
+2026-01-14 12:20:59,224 [T12] DEBUG JobRequest
+Step Callback Interval: 500
+
+2026-01-14 12:20:59,281 [T10] DEBUG ProjectManager
+Set Project Information
+
+2026-01-14 12:20:59,309 [T10] INFO  PlayOptionManager
+PlayOption
+- Step Interval : 1
+- Disable DrawBounds : False
+- Invoke First : False
+- Allow Upload of DumpScreen results : False
+
+2026-01-14 12:20:59,311 [T10] INFO  JobRunner
+Initialize Script Engine
+
+2026-01-14 12:20:59,329 [T14-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: Initializing
+##############################################################
+
+
+2026-01-14 12:20:59,363 [T12] DEBUG JobRequest
+Callback - State: Initializing
+
+
+2026-01-14 12:21:00,314 [T14-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: Ready
+##############################################################
+
+
+2026-01-14 12:21:00,325 [T12] DEBUG JobRequest
+Callback - State: Ready
+
+
+2026-01-14 12:21:00,326 [T10] INFO  JobRunnerHook
+HotKey Hook Started
+
+2026-01-14 12:21:00,327 [T10] INFO  JobRequest
+##############################################################
+### STATE: Starting
+##############################################################
+
+
+2026-01-14 12:21:00,329 [T14-ScriptEngine] INFO  JobRunner
+RunProcess start
+
+2026-01-14 12:21:00,331 [T14-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: Running
+##############################################################
+
+
+2026-01-14 12:21:00,331 [T14-ScriptEngine] INFO  JobRequest
+Last job life cycle state: Running
+
+2026-01-14 12:21:00,341 [T12] DEBUG JobRequest
+Callback - State: Starting
+
+
+2026-01-14 12:21:00,343 [T12] DEBUG JobRequest
+Callback - State: Running
+
+
+2026-01-14 12:21:01,731 [T14-ScriptEngine] DEBUG ScreenCapture
+DirectX Screen Capture Initialized.
+
+2026-01-14 12:21:01,818 [T14-ScriptEngine] DEBUG JobRunner
+DirectX ScreenCapture Checked.
+
+2026-01-14 12:21:01,849 [T14-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: StartProcess - P_Team1_Main_RPA
+##############################################################
+3745e8e7-3d51-443e-b58a-4ac32a5f16c5
+P_Team1_Main_RPA
+
+
+2026-01-14 12:21:01,912 [T14-ScriptEngine] INFO  JobRequest
+**************************************************************
+*** TASK: P_Team1_Main_RPA
+**************************************************************
+ - STEP 1: S0afeea48946e46708c1bba717abad35b (1/6) - (1/115)
+ - [1] IsFileExist
+
+
+2026-01-14 12:21:02,060 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 2: S6d3e6a3f92384964b540bc9553eefa04 (2/6) - (2/115)
+ - [2] IfThen
+
+
+2026-01-14 12:21:02,076 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 3: S459769e0a5b24b72911f8298a6bdfddc (3/6) - (3/115)
+ - [3] RunTask
+
+
+2026-01-14 12:21:02,089 [T14-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: StartTask - T_Get_Raw_CSV
+##############################################################
+5321d6cd-80eb-4b5f-8cb9-8d5351b7e1cc
+T_Get_Raw_CSV
+
+
+2026-01-14 12:21:02,108 [T14-ScriptEngine] INFO  JobRequest
+**************************************************************
+*** TASK: T_Get_Raw_CSV
+**************************************************************
+ - STEP 4: S9eddaecfb54e4c3eae7025a932969325 (1/15) - (4/115)
+ - [1] ChromeOpen
+
+
+2026-01-14 12:21:04,355 [T13] DEBUG ChromeRemoteConnect
+GetRemoteBrowserUsingEndPoint Fail : 하나 이상의 오류가 발생했습니다.
+
+2026-01-14 12:21:07,718 [T13] DEBUG ChromeCommonExtension
+extension default locale empty
+
+2026-01-14 12:21:10,481 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 5: Sa3d8047c0f944144942db7b7e005bd7d (2/15) - (5/115)
+ - [2] ChromeSetText
+
+
+2026-01-14 12:21:10,592 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:21:10,669 [T13] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:21:10,715 [T13] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:21:10,723 [T13] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:21:10,724 [T13] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:21:11,939 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 6: S25ab93ebcede4a87a1a2924e97fda173 (3/15) - (6/115)
+ - [3] ChromeClick
+
+
+2026-01-14 12:21:12,056 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:21:12,557 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:21:12,559 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:21:12,564 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:21:12,564 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:21:12,756 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 7: S9aff3cdbf0ca4f498e55a6193f1b6b14 (4/15) - (7/115)
+ - [4] ChromeClick
+
+
+2026-01-14 12:21:13,120 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:21:14,781 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:21:14,799 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:21:14,824 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:21:14,825 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:21:15,038 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 8: S11c3e6e9a24f40c8a37f5a770c36ed35 (5/15) - (8/115)
+ - [5] For
+
+
+2026-01-14 12:21:15,054 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 9: Se5819452f7594234bdf98f6277a70d8a (6/15) - (9/115)
+ - [6] ChromeClick
+
+
+2026-01-14 12:21:15,071 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:21:15,087 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:21:15,102 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:21:15,117 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:21:15,118 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:21:15,851 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 10: S53433c8d4ddb48edb79376b39eca4e9e (7/15) - (10/115)
+ - [7] TextInput
+
+
+2026-01-14 12:21:16,132 [T22] DEBUG UIAEventHandler
+Start UIA event handler
+
+2026-01-14 12:21:16,338 [T22] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2026-01-14 12:21:16,339 [T22] DEBUG UIAEventHandler
+Waiting additional time 155 msec for the screen structure is changing. Requested interval: 200 msec.
+
+2026-01-14 12:21:16,382 [T22] INFO  WinFinder
+Finding Object In App... Try: 1, IsLastTry: False. AppCount: 1
+
+2026-01-14 12:21:16,391 [T22] DEBUG WinElementTargetFinder
+## Object Find In App (name: '서울시 상권분석서비스(추정매출-상권)> 데이터셋> 공공...')
+
+2026-01-14 12:21:17,461 [T22] INFO  WinFinder
+ . Finding Object by 'RelativePoint Search' (Try: 1) ... 
+
+2026-01-14 12:21:17,590 [T14-ScriptEngine] INFO  WinFinder
+Finding Result: Found by 'TopDownV2' method. (Total: 1)
+ - name: '파일 이름:'
+ - value: '서울시 상권분석서비스(추정매출-상권)_2024년'
+
+2026-01-14 12:21:21,773 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 11: Sbd0b6271519a4e969ed30262d07d9409 (8/15) - (11/115)
+ - [8] Delay
+
+
+2026-01-14 12:21:22,800 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 12: S21e892999ffc4465a6fa6ad5e39785d3 (9/15) - (12/115)
+ - [9] UnZip
+
+
+2026-01-14 12:21:23,526 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 13: Se5819452f7594234bdf98f6277a70d8a (6/15) - (12/115)
+ - [6] ChromeClick
+
+
+2026-01-14 12:21:23,544 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:21:23,561 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:21:23,576 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:21:23,591 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:21:23,592 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:21:23,775 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 14: S53433c8d4ddb48edb79376b39eca4e9e (7/15) - (12/115)
+ - [7] TextInput
+
+
+2026-01-14 12:21:23,810 [T22] INFO  WinFinder
+Finding Object In App... Try: 1, IsLastTry: False. AppCount: 1
+
+2026-01-14 12:21:23,811 [T22] DEBUG WinElementTargetFinder
+## Object Find In App (name: '서울시 상권분석서비스(추정매출-상권)> 데이터셋> 공공...')
+
+2026-01-14 12:21:24,782 [T22] INFO  WinFinder
+Finding Object In App... Try: 2, IsLastTry: False. AppCount: 1
+
+2026-01-14 12:21:24,994 [T22] DEBUG WinElementTargetFinder
+## Object Find In App (name: '서울시 상권분석서비스(추정매출-상권)> 데이터셋> 공공...')
+
+2026-01-14 12:21:25,045 [T22] INFO  WinFinder
+ . Finding Object by 'RelativePoint Search' (Try: 2) ... 
+
+2026-01-14 12:21:25,107 [T14-ScriptEngine] INFO  WinFinder
+Finding Result: Found by 'ObjectPathEx' method. (Total: 1)
+ - name: '파일 이름:'
+ - value: '서울시_상권분석서비스(추정매출-상권)_2023년'
+
+2026-01-14 12:21:29,211 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 15: Sbd0b6271519a4e969ed30262d07d9409 (8/15) - (12/115)
+ - [8] Delay
+
+
+2026-01-14 12:21:30,229 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 16: S21e892999ffc4465a6fa6ad5e39785d3 (9/15) - (12/115)
+ - [9] UnZip
+
+
+2026-01-14 12:21:30,801 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 17: Se5819452f7594234bdf98f6277a70d8a (6/15) - (12/115)
+ - [6] ChromeClick
+
+
+2026-01-14 12:21:30,820 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:21:30,852 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:21:30,868 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:21:30,883 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:21:30,884 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:21:31,087 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 18: S53433c8d4ddb48edb79376b39eca4e9e (7/15) - (12/115)
+ - [7] TextInput
+
+
+2026-01-14 12:21:31,119 [T11] INFO  WinFinder
+Finding Object In App... Try: 1, IsLastTry: False. AppCount: 1
+
+2026-01-14 12:21:31,120 [T11] DEBUG WinElementTargetFinder
+## Object Find In App (name: '서울시 상권분석서비스(추정매출-상권)> 데이터셋> 공공...')
+
+2026-01-14 12:21:32,082 [T11] INFO  WinFinder
+Finding Object In App... Try: 2, IsLastTry: False. AppCount: 1
+
+2026-01-14 12:21:32,297 [T11] DEBUG WinElementTargetFinder
+## Object Find In App (name: '서울시 상권분석서비스(추정매출-상권)> 데이터셋> 공공...')
+
+2026-01-14 12:21:32,356 [T11] INFO  WinFinder
+ . Finding Object by 'RelativePoint Search' (Try: 2) ... 
+
+2026-01-14 12:21:32,415 [T14-ScriptEngine] INFO  WinFinder
+Finding Result: Found by 'ObjectPathEx' method. (Total: 1)
+ - name: '파일 이름:'
+ - value: '서울시_상권분석서비스(추정매출-상권)_2022년'
+
+2026-01-14 12:21:36,187 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 19: Sbd0b6271519a4e969ed30262d07d9409 (8/15) - (12/115)
+ - [8] Delay
+
+
+2026-01-14 12:21:37,213 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 20: S21e892999ffc4465a6fa6ad5e39785d3 (9/15) - (12/115)
+ - [9] UnZip
+
+
+2026-01-14 12:21:37,782 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 21: Se5819452f7594234bdf98f6277a70d8a (6/15) - (12/115)
+ - [6] ChromeClick
+
+
+2026-01-14 12:21:37,800 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:21:37,816 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:21:37,832 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:21:37,848 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:21:37,848 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:21:38,053 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 22: S53433c8d4ddb48edb79376b39eca4e9e (7/15) - (12/115)
+ - [7] TextInput
+
+
+2026-01-14 12:21:38,084 [T26] INFO  WinFinder
+Finding Object In App... Try: 1, IsLastTry: False. AppCount: 1
+
+2026-01-14 12:21:38,085 [T26] DEBUG WinElementTargetFinder
+## Object Find In App (name: '서울시 상권분석서비스(추정매출-상권)> 데이터셋> 공공...')
+
+2026-01-14 12:21:38,981 [T26] INFO  WinFinder
+Finding Object In App... Try: 2, IsLastTry: False. AppCount: 1
+
+2026-01-14 12:21:39,190 [T26] DEBUG WinElementTargetFinder
+## Object Find In App (name: '서울시 상권분석서비스(추정매출-상권)> 데이터셋> 공공...')
+
+2026-01-14 12:21:39,268 [T26] INFO  WinFinder
+ . Finding Object by 'RelativePoint Search' (Try: 2) ... 
+
+2026-01-14 12:21:39,331 [T14-ScriptEngine] INFO  WinFinder
+Finding Result: Found by 'ObjectPathEx' method. (Total: 1)
+ - name: '파일 이름:'
+ - value: '서울시_상권분석서비스(추정매출-상권)_2021년'
+
+2026-01-14 12:21:43,239 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 23: Sbd0b6271519a4e969ed30262d07d9409 (8/15) - (12/115)
+ - [8] Delay
+
+
+2026-01-14 12:21:44,258 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 24: S21e892999ffc4465a6fa6ad5e39785d3 (9/15) - (12/115)
+ - [9] UnZip
+
+
+2026-01-14 12:21:44,829 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 25: Se5819452f7594234bdf98f6277a70d8a (6/15) - (12/115)
+ - [6] ChromeClick
+
+
+2026-01-14 12:21:44,847 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:21:44,863 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:21:44,879 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:21:44,895 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:21:44,895 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:21:45,256 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 26: S53433c8d4ddb48edb79376b39eca4e9e (7/15) - (12/115)
+ - [7] TextInput
+
+
+2026-01-14 12:21:45,372 [T11] INFO  WinFinder
+Finding Object In App... Try: 1, IsLastTry: False. AppCount: 1
+
+2026-01-14 12:21:45,373 [T11] DEBUG WinElementTargetFinder
+## Object Find In App (name: '서울시 상권분석서비스(추정매출-상권)> 데이터셋> 공공...')
+
+2026-01-14 12:21:46,384 [T11] INFO  WinFinder
+Finding Object In App... Try: 2, IsLastTry: False. AppCount: 1
+
+2026-01-14 12:21:47,030 [T11] DEBUG WinElementTargetFinder
+## Object Find In App (name: '서울시 상권분석서비스(추정매출-상권)> 데이터셋> 공공...')
+
+2026-01-14 12:21:47,082 [T11] INFO  WinFinder
+ . Finding Object by 'RelativePoint Search' (Try: 2) ... 
+
+2026-01-14 12:21:47,150 [T14-ScriptEngine] INFO  WinFinder
+Finding Result: Found by 'ObjectPathEx' method. (Total: 1)
+ - name: '파일 이름:'
+ - value: '서울시_상권분석서비스(추정매출-상권)_2020년'
+
+2026-01-14 12:21:51,083 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 27: Sbd0b6271519a4e969ed30262d07d9409 (8/15) - (12/115)
+ - [8] Delay
+
+
+2026-01-14 12:21:52,106 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 28: S21e892999ffc4465a6fa6ad5e39785d3 (9/15) - (12/115)
+ - [9] UnZip
+
+
+2026-01-14 12:21:52,631 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 29: Se5819452f7594234bdf98f6277a70d8a (6/15) - (12/115)
+ - [6] ChromeClick
+
+
+2026-01-14 12:21:52,649 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:21:52,666 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:21:52,681 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:21:52,698 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:21:52,698 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:21:52,898 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 30: S53433c8d4ddb48edb79376b39eca4e9e (7/15) - (12/115)
+ - [7] TextInput
+
+
+2026-01-14 12:21:52,924 [T11] INFO  WinFinder
+Finding Object In App... Try: 1, IsLastTry: False. AppCount: 1
+
+2026-01-14 12:21:52,925 [T11] DEBUG WinElementTargetFinder
+## Object Find In App (name: '서울시 상권분석서비스(추정매출-상권)> 데이터셋> 공공...')
+
+2026-01-14 12:21:53,872 [T11] INFO  WinFinder
+Finding Object In App... Try: 2, IsLastTry: False. AppCount: 1
+
+2026-01-14 12:21:54,036 [T11] DEBUG WinElementTargetFinder
+## Object Find In App (name: '서울시 상권분석서비스(추정매출-상권)> 데이터셋> 공공...')
+
+2026-01-14 12:21:54,098 [T11] INFO  WinFinder
+ . Finding Object by 'RelativePoint Search' (Try: 2) ... 
+
+2026-01-14 12:21:54,158 [T14-ScriptEngine] INFO  WinFinder
+Finding Result: Found by 'ObjectPathEx' method. (Total: 1)
+ - name: '파일 이름:'
+ - value: '서울시_상권분석서비스(추정매출-상권)_2019년'
+
+2026-01-14 12:21:58,214 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 31: Sbd0b6271519a4e969ed30262d07d9409 (8/15) - (12/115)
+ - [8] Delay
+
+
+2026-01-14 12:21:59,241 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 32: S21e892999ffc4465a6fa6ad5e39785d3 (9/15) - (12/115)
+ - [9] UnZip
+
+
+2026-01-14 12:21:59,760 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 33: Sb6b41054628b42e7ba18cd7df5538de9 (10/15) - (13/115)
+ - [10] End-For
+
+
+2026-01-14 12:21:59,776 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 34: Sf006eaf8699d4a50ad92baf8d50987e2 (11/15) - (14/115)
+ - [11] OpenApp
+
+
+2026-01-14 12:21:59,793 [T14-ScriptEngine] INFO  UiaAppHelper
+Open App: PowerShell
+Arguments: 
+Derived App: 
+
+2026-01-14 12:21:59,987 [T14-ScriptEngine] INFO  UiaAppHelper
+Process 'powershell'(pid: 16600) Started.
+
+2026-01-14 12:22:01,018 [T14-ScriptEngine] INFO  UiaAppHelper
+Launched Application PID: 16600, HWND: 2820066
+
+2026-01-14 12:22:01,020 [T14-ScriptEngine] DEBUG UiaAppHelper
+The number of new target application windows: 1
+
+2026-01-14 12:22:05,548 [T14-ScriptEngine] INFO  UiaAppHelper
+OpenApp WaitForInputIdle - State: Unknown, ElapsedTime: 4527ms
+
+2026-01-14 12:22:06,069 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 35: Sdafcc958778643f780cf86535c3d2fc3 (12/15) - (15/115)
+ - [12] TextInput
+
+
+2026-01-14 12:22:06,093 [T11] INFO  WinFinder
+Finding Object In App... Try: 1, IsLastTry: False. AppCount: 1
+
+2026-01-14 12:22:06,094 [T11] DEBUG WinElementTargetFinder
+## Object Find In App (name: '관리자: Windows PowerShell')
+
+2026-01-14 12:22:06,100 [T11] INFO  WinFinder
+ . Finding Object by 'RelativePoint Search' (Try: 1) ... 
+
+2026-01-14 12:22:06,151 [T14-ScriptEngine] INFO  WinFinder
+Finding Result: Found by 'ObjectPathEx' method. (Total: 1)
+ - name: 'Text Area'
+ - value: ''
+
+2026-01-14 12:22:21,474 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 36: S8d683829f3ef4735926fd70e08be723c (13/15) - (16/115)
+ - [13] Delay
+
+
+2026-01-14 12:22:24,503 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 37: S1f4c12f92f49415d890189dcb9e6ffba (14/15) - (17/115)
+ - [14] ChromeClose
+
+
+2026-01-14 12:22:24,972 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 38: Sd8790fa10ce24220a458ea8c768e8262 (15/15) - (18/115)
+ - [15] CloseApp
+
+
+2026-01-14 12:22:24,981 [T14-ScriptEngine] DEBUG UiaAppHelper
+CloseApp: 16600
+
+2026-01-14 12:22:25,133 [T14-ScriptEngine] INFO  JobRunner
+[PASS] TASK: T_Get_Raw_CSV
+
+2026-01-14 12:22:25,143 [T14-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: EndTask - T_Get_Raw_CSV
+##############################################################
+5321d6cd-80eb-4b5f-8cb9-8d5351b7e1cc
+T_Get_Raw_CSV
+
+
+2026-01-14 12:22:25,160 [T14-ScriptEngine] INFO  JobRequest
+**************************************************************
+*** TASK: P_Team1_Main_RPA
+**************************************************************
+ - STEP 39: Sd2eb40bd643d4c049500188d35e1e18d (4/6) - (19/115)
+ - [4] End-IfThen
+
+
+2026-01-14 12:22:25,176 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 40: S43bfabda036142e68c50b60d5701d957 (5/6) - (20/115)
+ - [5] RunTask
+
+
+2026-01-14 12:22:25,179 [T14-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: StartTask - T_Server_Boot
+##############################################################
+7a2a3b22-779a-4234-9c9e-55774e5b3686
+T_Server_Boot
+
+
+2026-01-14 12:22:25,192 [T14-ScriptEngine] INFO  JobRequest
+**************************************************************
+*** TASK: T_Server_Boot
+**************************************************************
+ - STEP 41: S9471a6007e0346248b66a759209fc6f7 (1/7) - (21/115)
+ - [1] ExecuteScript
+
+
+2026-01-14 12:22:25,207 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 42: S031d24f07a3a42df9e4f024426c786fe (2/7) - (22/115)
+ - [2] OpenApp
+
+
+2026-01-14 12:22:25,208 [T14-ScriptEngine] INFO  UiaAppHelper
+Open App: CMD
+Arguments: 
+Derived App: 
+
+2026-01-14 12:22:25,353 [T14-ScriptEngine] INFO  UiaAppHelper
+Process 'cmd'(pid: 7944) Started.
+
+2026-01-14 12:22:26,376 [T14-ScriptEngine] INFO  UiaAppHelper
+Launched Application PID: 7944, HWND: 1771028
+
+2026-01-14 12:22:26,378 [T14-ScriptEngine] DEBUG UiaAppHelper
+The number of new target application windows: 1
+
+2026-01-14 12:22:30,924 [T14-ScriptEngine] INFO  UiaAppHelper
+OpenApp WaitForInputIdle - State: Unknown, ElapsedTime: 4545ms
+
+2026-01-14 12:22:31,446 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 43: Sbeb9087a683e4b518d3e5f08c6aa3b0c (3/7) - (23/115)
+ - [3] TextInput
+
+
+2026-01-14 12:22:31,471 [T13] INFO  WinFinder
+Finding Object In App... Try: 1, IsLastTry: False. AppCount: 1
+
+2026-01-14 12:22:31,472 [T13] DEBUG WinElementTargetFinder
+## Object Find In App (name: '관리자: C:\Windows\system32\CMD.e...')
+
+2026-01-14 12:22:31,479 [T13] INFO  WinFinder
+ . Finding Object by 'RelativePoint Search' (Try: 1) ... 
+
+2026-01-14 12:22:31,530 [T14-ScriptEngine] INFO  WinFinder
+Finding Result: Found by 'ObjectPathEx' method. (Total: 1)
+ - name: 'Text Area'
+ - value: ''
+
+2026-01-14 12:22:36,586 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 44: Sf541da16dbb944619169f69d77191e1a (4/7) - (24/115)
+ - [4] Delay
+
+
+2026-01-14 12:22:38,611 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 45: S83f4623c86eb42bbb604a320cc2944f8 (5/7) - (25/115)
+ - [5] OpenApp
+
+
+2026-01-14 12:22:38,612 [T14-ScriptEngine] INFO  UiaAppHelper
+Open App: CMD
+Arguments: 
+Derived App: 
+
+2026-01-14 12:22:38,627 [T14-ScriptEngine] DEBUG UiaAppHelper
+The number of all target windows before starting new application: 1
+
+2026-01-14 12:22:38,757 [T14-ScriptEngine] INFO  UiaAppHelper
+Process 'cmd'(pid: 12324) Started.
+
+2026-01-14 12:22:39,780 [T14-ScriptEngine] INFO  UiaAppHelper
+Launched Application PID: 12324, HWND: 4129362
+
+2026-01-14 12:22:39,783 [T14-ScriptEngine] DEBUG UiaAppHelper
+The number of new target application windows: 1
+
+2026-01-14 12:22:44,327 [T14-ScriptEngine] INFO  UiaAppHelper
+OpenApp WaitForInputIdle - State: Unknown, ElapsedTime: 4543ms
+
+2026-01-14 12:22:44,849 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 46: S53821d04101443a2bc384df20519ccbb (6/7) - (26/115)
+ - [6] TextInput
+
+
+2026-01-14 12:22:44,872 [T11] INFO  WinFinder
+Finding Object In App... Try: 1, IsLastTry: False. AppCount: 2
+
+2026-01-14 12:22:44,874 [T11] DEBUG WinElementTargetFinder
+## Object Find In App (Foreground) (name: '관리자: C:\Windows\system32\CMD.e...')
+
+2026-01-14 12:22:44,883 [T11] INFO  WinFinder
+ . Finding Object by 'RelativePoint Search' (Try: 1) ... 
+
+2026-01-14 12:22:44,929 [T14-ScriptEngine] INFO  WinFinder
+Finding Result: Found by 'ObjectPathEx' method. (Total: 1)
+ - name: 'Text Area'
+ - value: ''
+
+2026-01-14 12:22:50,499 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 47: Se06936c5f42f4862b525d45d5519408e (7/7) - (27/115)
+ - [7] Delay
+
+
+2026-01-14 12:22:57,507 [T14-ScriptEngine] INFO  JobRunner
+[PASS] TASK: T_Server_Boot
+
+2026-01-14 12:22:57,507 [T14-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: EndTask - T_Server_Boot
+##############################################################
+7a2a3b22-779a-4234-9c9e-55774e5b3686
+T_Server_Boot
+
+
+2026-01-14 12:22:57,523 [T14-ScriptEngine] INFO  JobRequest
+**************************************************************
+*** TASK: P_Team1_Main_RPA
+**************************************************************
+ - STEP 48: S3ad77f8926ec42108210be669a46a27e (6/6) - (28/115)
+ - [6] RunTask
+
+
+2026-01-14 12:22:57,525 [T14-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: StartTask - T_Open_Project
+##############################################################
+644595fd-ab5e-4854-9e71-cb7dce895187
+T_Open_Project
+
+
+2026-01-14 12:22:57,539 [T14-ScriptEngine] INFO  JobRequest
+**************************************************************
+*** TASK: T_Open_Project
+**************************************************************
+ - STEP 49: Sa4294cd24d404288b1f0050eb10db198 (1/3) - (29/115)
+ - [1] ChromeOpen
+
+
+2026-01-14 12:23:00,786 [T23] DEBUG ChromeCommonExtension
+extension default locale empty
+
+2026-01-14 12:23:03,064 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 50: S2427e640640243b5bd69d543910da645 (2/3) - (30/115)
+ - [2] RunTask
+
+
+2026-01-14 12:23:03,067 [T14-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: StartTask - T_Update_Main
+##############################################################
+34016410-9635-4d0b-8fce-82a174374050
+T_Update_Main
+
+
+2026-01-14 12:23:03,080 [T14-ScriptEngine] INFO  JobRequest
+**************************************************************
+*** TASK: T_Update_Main
+**************************************************************
+ - STEP 51: Sbbdd48580c754397b24faad05652a633 (1/6) - (31/115)
+ - [1] ChromeClick
+
+
+2026-01-14 12:23:03,086 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:03,095 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:03,099 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:03,102 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:03,103 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:03,425 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 52: S7852ef9bc1074988a2cba365d24640fa (2/6) - (32/115)
+ - [2] RunTask
+
+
+2026-01-14 12:23:03,438 [T14-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: StartTask - T_OCR
+##############################################################
+cdc7fe01-bcdc-4495-9051-ae3ddb751982
+T_OCR
+
+
+2026-01-14 12:23:03,441 [T14-ScriptEngine] INFO  JobRequest
+**************************************************************
+*** TASK: T_OCR
+**************************************************************
+ - STEP 53: S9601684bf4a04d329c9e2962dcb3395c (1/13) - (33/115)
+ - [1] ChromeClick
+
+
+2026-01-14 12:23:03,450 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:03,641 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:03,643 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:03,646 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:03,647 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:03,959 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 54: Sd345772e99aa4ca69a4910aa3e612f5c (2/13) - (34/115)
+ - [2] ChromeGetData
+
+
+2026-01-14 12:23:04,043 [T17] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:04,047 [T17] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:04,056 [T17] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:04,060 [T17] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:04,060 [T17] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:04,194 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 55: Sdf7bfa01de78458f9186b248c5052cd1 (3/13) - (35/115)
+ - [3] MouseDrag
+
+
+2026-01-14 12:23:04,263 [T22] INFO  WinFinder
+Finding Object In App... Try: 1, IsLastTry: False. AppCount: 1
+
+2026-01-14 12:23:04,264 [T22] DEBUG WinElementTargetFinder
+## Object Find In App (name: '기본 정보 조회 - Chrome')
+
+2026-01-14 12:23:04,318 [T22] INFO  WinFinder
+ . Finding Object by 'RelativePoint Search' (Try: 1) ... 
+
+2026-01-14 12:23:04,403 [T14-ScriptEngine] INFO  WinFinder
+Finding Result: Found by 'ObjectPathEx' method. (Total: 1)
+ - name: '한식음식점'
+ - value: ''
+
+2026-01-14 12:23:04,864 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 56: Sd602197f4b144ec6ae8bd432115cd570 (4/13) - (36/115)
+ - [4] MouseDrop
+
+
+2026-01-14 12:23:04,926 [T23] INFO  WinFinder
+Finding Object In App... Try: 1, IsLastTry: False. AppCount: 1
+
+2026-01-14 12:23:04,927 [T23] DEBUG WinElementTargetFinder
+## Object Find In App (name: '기본 정보 조회 - Chrome')
+
+2026-01-14 12:23:04,993 [T23] INFO  WinFinder
+ . Finding Object by 'RelativePoint Search' (Try: 1) ... 
+
+2026-01-14 12:23:05,066 [T14-ScriptEngine] INFO  WinFinder
+Finding Result: Found by 'ObjectPathEx' method. (Total: 1)
+ - name: '98,009,852'
+ - value: ''
+
+2026-01-14 12:23:06,732 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 57: S4de57edf54994d3fa78ce7ba6eb518c8 (5/13) - (37/115)
+ - [5] MouseScroll
+
+
+2026-01-14 12:23:06,791 [T25] INFO  WinFinder
+Finding Object In App... Try: 1, IsLastTry: False. AppCount: 1
+
+2026-01-14 12:23:06,792 [T25] DEBUG WinElementTargetFinder
+## Object Find In App (name: '기본 정보 조회 - Chrome')
+
+2026-01-14 12:23:06,828 [T25] INFO  WinFinder
+ . Finding Object by 'RelativePoint Search' (Try: 1) ... 
+
+2026-01-14 12:23:07,009 [T14-ScriptEngine] INFO  WinFinder
+Finding Result: Found by 'ObjectPathEx' method. (Total: 1)
+ - name: '기본 정보 조회'
+ - value: 'http://localhost:8765/viewpage?page=12'
+
+2026-01-14 12:23:10,567 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 58: S878a182907eb4d07aab1d75020ccf5eb (6/13) - (38/115)
+ - [6] ChromeClick
+
+
+2026-01-14 12:23:10,575 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:10,581 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:10,583 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:10,587 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:10,588 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:10,783 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 59: Sbca50d8fd8a141569fad3b0e5fd84889 (7/13) - (39/115)
+ - [7] ChromeClick
+
+
+2026-01-14 12:23:10,791 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:10,796 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:10,800 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:10,804 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:10,805 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:10,956 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 60: S0536cc3f3bdf43118dfa0f4555139110 (8/13) - (40/115)
+ - [8] TextInput
+
+
+2026-01-14 12:23:10,981 [T13] INFO  WinFinder
+Finding Object In App... Try: 1, IsLastTry: False. AppCount: 1
+
+2026-01-14 12:23:10,982 [T13] DEBUG WinElementTargetFinder
+## Object Find In App (name: '서울시 상권 [음식점] 기본 정보 추가하기 - Chro...')
+
+2026-01-14 12:23:11,467 [T13] INFO  WinFinder
+Finding Object In App... Try: 2, IsLastTry: False. AppCount: 1
+
+2026-01-14 12:23:11,905 [T13] DEBUG WinElementTargetFinder
+## Object Find In App (name: '서울시 상권 [음식점] 기본 정보 추가하기 - Chro...')
+
+2026-01-14 12:23:11,950 [T13] INFO  WinFinder
+ . Finding Object by 'RelativePoint Search' (Try: 2) ... 
+
+2026-01-14 12:23:12,002 [T14-ScriptEngine] INFO  WinFinder
+Finding Result: Found by 'ObjectPathEx' method. (Total: 1)
+ - name: '파일 이름(N):'
+ - value: ''
+
+2026-01-14 12:23:18,598 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 61: S841ab3ca3ba1438e90660cec7e21fdfe (9/13) - (41/115)
+ - [9] ChromeClick
+
+
+2026-01-14 12:23:18,604 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:18,644 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:18,655 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:18,709 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:18,710 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:19,778 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 62: Se961d77e0b9b4132a9a183b510a7b6b3 (10/13) - (42/115)
+ - [10] ChromeClick
+
+
+2026-01-14 12:23:19,791 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:19,803 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:19,809 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:19,812 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:19,813 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:20,078 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 63: Sb5ecedb86edb49649d8e73ac2aa84ff5 (11/13) - (43/115)
+ - [11] ChromeGetData
+
+
+2026-01-14 12:23:20,112 [T17] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:20,122 [T17] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:20,130 [T17] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:20,143 [T17] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:20,144 [T17] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:20,263 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 64: S9d154a23f2af48578a44eb214e758fc0 (12/13) - (44/115)
+ - [12] MouseDrag
+
+
+2026-01-14 12:23:20,298 [T25] INFO  WinFinder
+Finding Object In App... Try: 1, IsLastTry: False. AppCount: 1
+
+2026-01-14 12:23:20,299 [T25] DEBUG WinElementTargetFinder
+## Object Find In App (name: '기본 정보 조회 - Chrome')
+
+2026-01-14 12:23:20,348 [T25] INFO  WinFinder
+ . Finding Object by 'RelativePoint Search' (Try: 1) ... 
+
+2026-01-14 12:23:20,443 [T14-ScriptEngine] INFO  WinFinder
+Finding Result: Found by 'ObjectPathEx' method. (Total: 1)
+ - name: '한식음식점'
+ - value: ''
+
+2026-01-14 12:23:20,923 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 65: S5c3ff0e466d84c6c927c58cb838da095 (13/13) - (45/115)
+ - [13] MouseDrop
+
+
+2026-01-14 12:23:20,953 [T17] INFO  WinFinder
+Finding Object In App... Try: 1, IsLastTry: False. AppCount: 1
+
+2026-01-14 12:23:20,953 [T17] DEBUG WinElementTargetFinder
+## Object Find In App (name: '기본 정보 조회 - Chrome')
+
+2026-01-14 12:23:21,006 [T17] INFO  WinFinder
+ . Finding Object by 'RelativePoint Search' (Try: 1) ... 
+
+2026-01-14 12:23:21,070 [T14-ScriptEngine] INFO  WinFinder
+Finding Result: Found by 'ObjectPathEx' method. (Total: 1)
+ - name: '75'
+ - value: ''
+
+2026-01-14 12:23:22,749 [T14-ScriptEngine] INFO  JobRunner
+[PASS] TASK: T_OCR
+
+2026-01-14 12:23:22,752 [T14-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: EndTask - T_OCR
+##############################################################
+cdc7fe01-bcdc-4495-9051-ae3ddb751982
+T_OCR
+
+
+2026-01-14 12:23:22,765 [T14-ScriptEngine] INFO  JobRequest
+**************************************************************
+*** TASK: T_Update_Main
+**************************************************************
+ - STEP 66: Sa0d3925a79244fdbaeb690acab017503 (3/6) - (46/115)
+ - [3] RunTask
+
+
+2026-01-14 12:23:22,781 [T14-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: StartTask - T_Input_User
+##############################################################
+48a5d123-280a-4f56-9c80-4f60da3084d9
+T_Input_User
+
+
+2026-01-14 12:23:22,797 [T14-ScriptEngine] INFO  JobRequest
+**************************************************************
+*** TASK: T_Input_User
+**************************************************************
+ - STEP 67: Sb7032bc5a04d422f9bbca7125ccbe1a6 (1/15) - (47/115)
+ - [1] ChromeClick
+
+
+2026-01-14 12:23:22,803 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:22,808 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:22,810 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:22,814 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:22,815 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:23,048 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 68: S0097a19932334402ba98cd418ab98fda (2/15) - (48/115)
+ - [2] ChromeGetData
+
+
+2026-01-14 12:23:23,079 [T19] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:23,088 [T19] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:23,091 [T19] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:23,094 [T19] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:23,095 [T19] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:23,222 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 69: Sa86455f950d94f5e8a84e1873bc66b17 (3/15) - (49/115)
+ - [3] MouseDrag
+
+
+2026-01-14 12:23:23,248 [T25] INFO  WinFinder
+Finding Object In App... Try: 1, IsLastTry: False. AppCount: 1
+
+2026-01-14 12:23:23,249 [T25] DEBUG WinElementTargetFinder
+## Object Find In App (name: '기본 정보 조회 - Chrome')
+
+2026-01-14 12:23:23,280 [T25] INFO  WinFinder
+ . Finding Object by 'RelativePoint Search' (Try: 1) ... 
+
+2026-01-14 12:23:23,341 [T14-ScriptEngine] INFO  WinFinder
+Finding Result: Found by 'Point' method. (Total: 1)
+ - name: '양식음식점'
+ - value: ''
+
+2026-01-14 12:23:23,792 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 70: S09c3c3d565714eab93892bd73ecf71cf (4/15) - (50/115)
+ - [4] MouseDrop
+
+
+2026-01-14 12:23:23,819 [T13] INFO  WinFinder
+Finding Object In App... Try: 1, IsLastTry: False. AppCount: 1
+
+2026-01-14 12:23:23,820 [T13] DEBUG WinElementTargetFinder
+## Object Find In App (name: '기본 정보 조회 - Chrome')
+
+2026-01-14 12:23:23,880 [T13] INFO  WinFinder
+ . Finding Object by 'RelativePoint Search' (Try: 1) ... 
+
+2026-01-14 12:23:23,940 [T14-ScriptEngine] INFO  WinFinder
+Finding Result: Found by 'BottomUpV2' method. (Total: 1)
+ - name: '6,822,434'
+ - value: ''
+
+2026-01-14 12:23:25,596 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 71: S05da72fb521a4c6f8c54ff1ac325581a (5/15) - (51/115)
+ - [5] ChromeClick
+
+
+2026-01-14 12:23:25,601 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:25,606 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:25,609 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:25,613 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:25,613 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:25,797 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 72: S38b70ebf510447cfaaee150c7c7e02c0 (6/15) - (52/115)
+ - [6] ChromeClick
+
+
+2026-01-14 12:23:25,803 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:25,806 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:25,808 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:25,812 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:25,812 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:25,968 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 73: S7ba46d802f3b4622bb43420aa7492936 (7/15) - (53/115)
+ - [7] ChromeClick
+
+
+2026-01-14 12:23:25,971 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:25,974 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:25,976 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:25,978 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:25,979 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:26,140 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 74: Se259bc0e616b4677ac7b81fe99314719 (8/15) - (54/115)
+ - [8] ChromeClick
+
+
+2026-01-14 12:23:26,144 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:26,149 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:26,152 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:26,156 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:26,157 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:26,310 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 75: S1fbe183e0769424d88f53750bd199924 (9/15) - (55/115)
+ - [9] KeyInput
+
+
+2026-01-14 12:23:28,458 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 76: Sdbaf04b9c2a049f18ff775521e1fd7f7 (10/15) - (56/115)
+ - [10] ChromeSetText
+
+
+2026-01-14 12:23:28,464 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:28,470 [T11] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:28,474 [T11] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:28,478 [T11] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:28,479 [T11] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:28,660 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 77: S8860fb2dd5d346efbccbaa438fc16e04 (11/15) - (57/115)
+ - [11] ChromeSetText
+
+
+2026-01-14 12:23:28,665 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:28,670 [T24] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:28,672 [T24] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:28,677 [T24] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:28,677 [T24] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:28,847 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 78: S4cbbd7a02fe84de1a1078d35a6e22490 (12/15) - (58/115)
+ - [12] ChromeClick
+
+
+2026-01-14 12:23:28,852 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:28,856 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:28,858 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:28,862 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:28,862 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:29,146 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 79: Sf4a99368f71340dd881b2d5adeaa31ac (13/15) - (59/115)
+ - [13] ChromeGetData
+
+
+2026-01-14 12:23:29,160 [T19] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:29,162 [T19] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:29,165 [T19] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:29,176 [T19] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:29,176 [T19] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:29,302 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 80: Sf4c6d1a56dbe4947af76be7f79162092 (14/15) - (60/115)
+ - [14] MouseDrag
+
+
+2026-01-14 12:23:29,325 [T11] INFO  WinFinder
+Finding Object In App... Try: 1, IsLastTry: False. AppCount: 1
+
+2026-01-14 12:23:29,326 [T11] DEBUG WinElementTargetFinder
+## Object Find In App (name: '기본 정보 조회 - Chrome')
+
+2026-01-14 12:23:29,363 [T11] INFO  WinFinder
+ . Finding Object by 'RelativePoint Search' (Try: 1) ... 
+
+2026-01-14 12:23:29,428 [T14-ScriptEngine] INFO  WinFinder
+Finding Result: Found by 'Point' method. (Total: 1)
+ - name: '양식음식점'
+ - value: ''
+
+2026-01-14 12:23:29,879 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 81: S1daa3a29a3514116b4f3024a9b016716 (15/15) - (61/115)
+ - [15] MouseDrop
+
+
+2026-01-14 12:23:29,907 [T19] INFO  WinFinder
+Finding Object In App... Try: 1, IsLastTry: False. AppCount: 1
+
+2026-01-14 12:23:29,907 [T19] DEBUG WinElementTargetFinder
+## Object Find In App (name: '기본 정보 조회 - Chrome')
+
+2026-01-14 12:23:29,969 [T19] INFO  WinFinder
+ . Finding Object by 'RelativePoint Search' (Try: 1) ... 
+
+2026-01-14 12:23:30,042 [T14-ScriptEngine] INFO  WinFinder
+Finding Result: Found by 'BottomUpV2' method. (Total: 1)
+ - name: '654,321'
+ - value: ''
+
+2026-01-14 12:23:31,729 [T14-ScriptEngine] INFO  JobRunner
+[PASS] TASK: T_Input_User
+
+2026-01-14 12:23:31,730 [T14-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: EndTask - T_Input_User
+##############################################################
+48a5d123-280a-4f56-9c80-4f60da3084d9
+T_Input_User
+
+
+2026-01-14 12:23:31,745 [T14-ScriptEngine] INFO  JobRequest
+**************************************************************
+*** TASK: T_Update_Main
+**************************************************************
+ - STEP 82: Sce8cdc903dad434a901aa2fd5fe5fb93 (4/6) - (62/115)
+ - [4] RunTask
+
+
+2026-01-14 12:23:31,754 [T14-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: StartTask - T_CSV
+##############################################################
+e5ade04a-3c0e-496e-8e56-39d53919b786
+T_CSV
+
+
+2026-01-14 12:23:31,761 [T14-ScriptEngine] INFO  JobRequest
+**************************************************************
+*** TASK: T_CSV
+**************************************************************
+ - STEP 83: Sebd77921766348d1ba10590f396c6dfa (1/10) - (63/115)
+ - [1] ChromeGetData
+
+
+2026-01-14 12:23:31,773 [T19] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:31,776 [T19] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:31,779 [T19] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:31,782 [T19] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:31,783 [T19] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:31,902 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 84: S289d9be6014b4159888d70f70b4e22bb (2/10) - (64/115)
+ - [2] MouseDrag
+
+
+2026-01-14 12:23:31,923 [T24] INFO  WinFinder
+Finding Object In App... Try: 1, IsLastTry: False. AppCount: 1
+
+2026-01-14 12:23:31,924 [T24] DEBUG WinElementTargetFinder
+## Object Find In App (name: '기본 정보 조회 - Chrome')
+
+2026-01-14 12:23:31,956 [T24] INFO  WinFinder
+ . Finding Object by 'RelativePoint Search' (Try: 1) ... 
+
+2026-01-14 12:23:32,014 [T14-ScriptEngine] INFO  WinFinder
+Finding Result: Found by 'Point' method. (Total: 1)
+ - name: '한식음식점'
+ - value: ''
+
+2026-01-14 12:23:32,463 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 85: S1a1cfee5df9c4cfa914f9e7bea56fb31 (3/10) - (65/115)
+ - [3] MouseDrop
+
+
+2026-01-14 12:23:32,543 [T24] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2026-01-14 12:23:32,543 [T24] DEBUG UIAEventHandler
+Waiting additional time 60 msec for the screen structure is changing. Requested interval: 200 msec.
+
+2026-01-14 12:23:32,546 [T24] INFO  WinFinder
+Finding Object In App... Try: 1, IsLastTry: False. AppCount: 1
+
+2026-01-14 12:23:32,547 [T24] DEBUG WinElementTargetFinder
+## Object Find In App (name: '기본 정보 조회 - Chrome')
+
+2026-01-14 12:23:32,602 [T24] INFO  WinFinder
+ . Finding Object by 'RelativePoint Search' (Try: 1) ... 
+
+2026-01-14 12:23:32,660 [T14-ScriptEngine] INFO  WinFinder
+Finding Result: Found by 'BottomUpV2' method. (Total: 1)
+ - name: '11,972,414'
+ - value: ''
+
+2026-01-14 12:23:34,321 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 86: S305cc7779432413f9f8ff9e880f400e9 (4/10) - (66/115)
+ - [4] ChromeClick
+
+
+2026-01-14 12:23:34,328 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:34,333 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:34,336 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:34,339 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:34,340 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:34,519 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 87: S157ae2ca86284934af2964d47ebe60cb (5/10) - (67/115)
+ - [5] ChromeClick
+
+
+2026-01-14 12:23:34,524 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:34,528 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:34,530 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:34,536 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:34,536 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:34,689 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 88: Sdd61041f166d4a21984737825e81fcb3 (6/10) - (68/115)
+ - [6] TextInput
+
+
+2026-01-14 12:23:34,712 [T17] INFO  WinFinder
+Finding Object In App... Try: 1, IsLastTry: False. AppCount: 1
+
+2026-01-14 12:23:34,713 [T17] DEBUG WinElementTargetFinder
+## Object Find In App (name: '서울시 상권 [음식점] 기본 정보 추가하기 - Chro...')
+
+2026-01-14 12:23:35,203 [T17] INFO  WinFinder
+Finding Object In App... Try: 2, IsLastTry: False. AppCount: 1
+
+2026-01-14 12:23:35,602 [T17] DEBUG WinElementTargetFinder
+## Object Find In App (name: '서울시 상권 [음식점] 기본 정보 추가하기 - Chro...')
+
+2026-01-14 12:23:35,628 [T17] INFO  WinFinder
+ . Finding Object by 'RelativePoint Search' (Try: 2) ... 
+
+2026-01-14 12:23:35,687 [T14-ScriptEngine] INFO  WinFinder
+Finding Result: Found by 'ObjectPathEx' method. (Total: 1)
+ - name: '파일 이름(N):'
+ - value: ''
+
+2026-01-14 12:23:41,496 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 89: S1706f31c50de48a794ddb78def1bd20b (7/10) - (69/115)
+ - [7] ChromeClick
+
+
+2026-01-14 12:23:41,526 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:41,551 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:41,602 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:41,610 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:41,610 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:41,952 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 90: Sa576609cee314b31b3576be1c8e28b72 (8/10) - (70/115)
+ - [8] ChromeGetData
+
+
+2026-01-14 12:23:41,960 [T3] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:41,962 [T3] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:41,974 [T3] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:41,977 [T3] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:41,978 [T3] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:42,107 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 91: Sc299d2328c46498d9835333bb5212be0 (9/10) - (71/115)
+ - [9] MouseDrag
+
+
+2026-01-14 12:23:42,139 [T3] INFO  WinFinder
+Finding Object In App... Try: 1, IsLastTry: False. AppCount: 1
+
+2026-01-14 12:23:42,140 [T3] DEBUG WinElementTargetFinder
+## Object Find In App (name: '기본 정보 조회 - Chrome')
+
+2026-01-14 12:23:42,177 [T3] INFO  WinFinder
+ . Finding Object by 'RelativePoint Search' (Try: 1) ... 
+
+2026-01-14 12:23:42,242 [T14-ScriptEngine] INFO  WinFinder
+Finding Result: Found by 'Point' method. (Total: 1)
+ - name: '한식음식점'
+ - value: ''
+
+2026-01-14 12:23:42,701 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 92: S5388fd9f665b446db222d6853beeb1e7 (10/10) - (72/115)
+ - [10] MouseDrop
+
+
+2026-01-14 12:23:42,726 [T22] INFO  WinFinder
+Finding Object In App... Try: 1, IsLastTry: False. AppCount: 1
+
+2026-01-14 12:23:42,727 [T22] DEBUG WinElementTargetFinder
+## Object Find In App (name: '기본 정보 조회 - Chrome')
+
+2026-01-14 12:23:42,784 [T22] INFO  WinFinder
+ . Finding Object by 'RelativePoint Search' (Try: 1) ... 
+
+2026-01-14 12:23:42,847 [T14-ScriptEngine] INFO  WinFinder
+Finding Result: Found by 'BottomUpV2' method. (Total: 1)
+ - name: '432'
+ - value: ''
+
+2026-01-14 12:23:44,536 [T14-ScriptEngine] INFO  JobRunner
+[PASS] TASK: T_CSV
+
+2026-01-14 12:23:44,537 [T14-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: EndTask - T_CSV
+##############################################################
+e5ade04a-3c0e-496e-8e56-39d53919b786
+T_CSV
+
+
+2026-01-14 12:23:44,552 [T14-ScriptEngine] INFO  JobRequest
+**************************************************************
+*** TASK: T_Update_Main
+**************************************************************
+ - STEP 93: S3ee75be523a142f7a38195959027e61a (5/6) - (73/115)
+ - [5] RunTask
+
+
+2026-01-14 12:23:44,561 [T14-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: StartTask - T_Json
+##############################################################
+e703c5cc-9693-4d62-952c-267168321362
+T_Json
+
+
+2026-01-14 12:23:44,568 [T14-ScriptEngine] INFO  JobRequest
+**************************************************************
+*** TASK: T_Json
+**************************************************************
+ - STEP 94: S7f76df7866f142d29f4c13dbf2829268 (1/12) - (74/115)
+ - [1] ChromeClick
+
+
+2026-01-14 12:23:44,578 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:44,584 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:44,587 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:44,590 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:44,591 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:44,850 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 95: Sed019a34b7fa4568b8a1192a18beadbc (2/12) - (75/115)
+ - [2] ChromeGetData
+
+
+2026-01-14 12:23:44,858 [T11] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:44,860 [T11] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:44,862 [T11] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:44,872 [T11] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:44,872 [T11] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:45,010 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 96: S903c7b5c8fc245bd825625b706e2f176 (3/12) - (76/115)
+ - [3] MouseDrag
+
+
+2026-01-14 12:23:45,043 [T25] INFO  WinFinder
+Finding Object In App... Try: 1, IsLastTry: False. AppCount: 1
+
+2026-01-14 12:23:45,044 [T25] DEBUG WinElementTargetFinder
+## Object Find In App (name: '기본 정보 조회 - Chrome')
+
+2026-01-14 12:23:45,098 [T25] INFO  WinFinder
+ . Finding Object by 'RelativePoint Search' (Try: 1) ... 
+
+2026-01-14 12:23:45,186 [T14-ScriptEngine] INFO  WinFinder
+Finding Result: Found by 'ObjectPathEx' method. (Total: 1)
+ - name: '양식음식점'
+ - value: ''
+
+2026-01-14 12:23:45,655 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 97: S71af8f84632d4e46bf14e56d66c9a857 (4/12) - (77/115)
+ - [4] MouseDrop
+
+
+2026-01-14 12:23:45,683 [T21] INFO  WinFinder
+Finding Object In App... Try: 1, IsLastTry: False. AppCount: 1
+
+2026-01-14 12:23:45,684 [T21] DEBUG WinElementTargetFinder
+## Object Find In App (name: '기본 정보 조회 - Chrome')
+
+2026-01-14 12:23:45,735 [T21] INFO  WinFinder
+ . Finding Object by 'RelativePoint Search' (Try: 1) ... 
+
+2026-01-14 12:23:45,809 [T14-ScriptEngine] INFO  WinFinder
+Finding Result: Found by 'ObjectPathEx' method. (Total: 1)
+ - name: '70,507,322'
+ - value: ''
+
+2026-01-14 12:23:47,460 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 98: S3bffa5093e644e188597199053531bbf (5/12) - (78/115)
+ - [5] ChromeClick
+
+
+2026-01-14 12:23:47,465 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:47,469 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:47,471 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:47,475 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:47,476 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:47,658 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 99: S690adf4be2f54de5a2df2c001ea8848b (6/12) - (79/115)
+ - [6] ChromeClick
+
+
+2026-01-14 12:23:47,663 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:47,668 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:47,671 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:47,674 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:47,675 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:47,812 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 100: S67b7ce9e67234305a817ebacc005e085 (7/12) - (80/115)
+ - [7] TextInput
+
+
+2026-01-14 12:23:47,841 [T24] INFO  WinFinder
+Finding Object In App... Try: 1, IsLastTry: False. AppCount: 1
+
+2026-01-14 12:23:47,842 [T24] DEBUG WinElementTargetFinder
+## Object Find In App (name: '서울시 상권 [음식점] 기본 정보 추가하기 - Chro...')
+
+2026-01-14 12:23:48,327 [T24] INFO  WinFinder
+Finding Object In App... Try: 2, IsLastTry: False. AppCount: 1
+
+2026-01-14 12:23:48,728 [T24] DEBUG WinElementTargetFinder
+## Object Find In App (name: '서울시 상권 [음식점] 기본 정보 추가하기 - Chro...')
+
+2026-01-14 12:23:48,755 [T24] INFO  WinFinder
+ . Finding Object by 'RelativePoint Search' (Try: 2) ... 
+
+2026-01-14 12:23:48,812 [T14-ScriptEngine] INFO  WinFinder
+Finding Result: Found by 'ObjectPathEx' method. (Total: 1)
+ - name: '파일 이름(N):'
+ - value: ''
+
+2026-01-14 12:23:54,722 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 101: Sa1c739c0e68a4c6b9eed506cd0cdbc3f (8/12) - (81/115)
+ - [8] ChromeClick
+
+
+2026-01-14 12:23:54,769 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:54,840 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:54,852 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:54,856 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:54,857 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:55,206 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 102: S6d7edfcea41b4a1085ffea63bc5d228d (9/12) - (82/115)
+ - [9] ChromeClick
+
+
+2026-01-14 12:23:55,211 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:55,215 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:55,225 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:55,227 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:55,228 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:55,545 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 103: Sd9991a101e734bdb858cd99c6e74dc6e (10/12) - (83/115)
+ - [10] ChromeGetData
+
+
+2026-01-14 12:23:55,557 [T3] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:55,559 [T3] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:55,562 [T3] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:55,573 [T3] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:55,574 [T3] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:55,703 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 104: S553e261ed7424d5eb05acf17dcc338a0 (11/12) - (84/115)
+ - [11] MouseDrag
+
+
+2026-01-14 12:23:55,734 [T3] INFO  WinFinder
+Finding Object In App... Try: 1, IsLastTry: False. AppCount: 1
+
+2026-01-14 12:23:55,735 [T3] DEBUG WinElementTargetFinder
+## Object Find In App (name: '기본 정보 조회 - Chrome')
+
+2026-01-14 12:23:55,785 [T3] INFO  WinFinder
+ . Finding Object by 'RelativePoint Search' (Try: 1) ... 
+
+2026-01-14 12:23:55,864 [T14-ScriptEngine] INFO  WinFinder
+Finding Result: Found by 'ObjectPathEx' method. (Total: 1)
+ - name: '양식음식점'
+ - value: ''
+
+2026-01-14 12:23:56,310 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 105: Sff4b32573eef4994afd188b4958e0a68 (12/12) - (85/115)
+ - [12] MouseDrop
+
+
+2026-01-14 12:23:56,340 [T3] INFO  WinFinder
+Finding Object In App... Try: 1, IsLastTry: False. AppCount: 1
+
+2026-01-14 12:23:56,340 [T3] DEBUG WinElementTargetFinder
+## Object Find In App (name: '기본 정보 조회 - Chrome')
+
+2026-01-14 12:23:56,391 [T3] INFO  WinFinder
+ . Finding Object by 'RelativePoint Search' (Try: 1) ... 
+
+2026-01-14 12:23:56,455 [T14-ScriptEngine] INFO  WinFinder
+Finding Result: Found by 'ObjectPathEx' method. (Total: 1)
+ - name: '1,234'
+ - value: ''
+
+2026-01-14 12:23:58,127 [T14-ScriptEngine] INFO  JobRunner
+[PASS] TASK: T_Json
+
+2026-01-14 12:23:58,127 [T14-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: EndTask - T_Json
+##############################################################
+e703c5cc-9693-4d62-952c-267168321362
+T_Json
+
+
+2026-01-14 12:23:58,144 [T14-ScriptEngine] INFO  JobRequest
+**************************************************************
+*** TASK: T_Update_Main
+**************************************************************
+ - STEP 106: S55228b4558f640ab918dacbb3908b59f (6/6) - (86/115)
+ - [6] ChromeClick
+
+
+2026-01-14 12:23:58,152 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:58,171 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:58,174 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:58,178 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:58,178 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:58,393 [T14-ScriptEngine] INFO  JobRunner
+[PASS] TASK: T_Update_Main
+
+2026-01-14 12:23:58,393 [T14-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: EndTask - T_Update_Main
+##############################################################
+34016410-9635-4d0b-8fce-82a174374050
+T_Update_Main
+
+
+2026-01-14 12:23:58,407 [T14-ScriptEngine] INFO  JobRequest
+**************************************************************
+*** TASK: T_Open_Project
+**************************************************************
+ - STEP 107: S2792b6d81c864f6e9ee60b37066073d5 (3/3) - (87/115)
+ - [3] RunTask
+
+
+2026-01-14 12:23:58,411 [T14-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: StartTask - T_Predict_Main
+##############################################################
+0a26ebd0-9be9-4b98-bf97-94fa0587de92
+T_Predict_Main
+
+
+2026-01-14 12:23:58,423 [T14-ScriptEngine] INFO  JobRequest
+**************************************************************
+*** TASK: T_Predict_Main
+**************************************************************
+ - STEP 108: S39d27a65a8e74c489e3f3c3a151d42c5 (1/8) - (88/115)
+ - [1] ChromeClick
+
+
+2026-01-14 12:23:58,428 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:58,433 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:58,435 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:58,438 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:58,439 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:58,624 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 109: S639f75b870ec413088ea5f8f0a90702d (2/8) - (89/115)
+ - [2] ChromeSetText
+
+
+2026-01-14 12:23:58,629 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:58,634 [T13] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:58,637 [T13] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:58,640 [T13] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:58,641 [T13] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:58,813 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 110: S429e4f54cc5e4b2c8632413f61c0a802 (3/8) - (90/115)
+ - [3] ChromeClick
+
+
+2026-01-14 12:23:58,816 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:58,819 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:58,821 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:58,825 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:58,825 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:23:59,003 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 111: S121e2569051f43e29389b2dc8f9066ed (4/8) - (91/115)
+ - [4] KeyInput
+
+
+2026-01-14 12:24:00,892 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 112: S3485acdc58ca434b924146c9afde0073 (5/8) - (92/115)
+ - [5] ChromeClick
+
+
+2026-01-14 12:24:00,896 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:24:00,902 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:24:00,907 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:24:00,910 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:24:00,911 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:24:01,061 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 113: S95334e67a0034a23ad81bcb0eae6b8b2 (6/8) - (93/115)
+ - [6] KeyInput
+
+
+2026-01-14 12:24:03,205 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 114: S0cf2363ecb8948aab8c6d09928d6b4a2 (7/8) - (94/115)
+ - [7] ChromeClick
+
+
+2026-01-14 12:24:03,210 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:24:03,216 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:24:03,219 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:24:03,224 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:24:03,224 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:24:03,360 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 115: Sc71264b96c9c4d4cbf55eaf154b3fe05 (8/8) - (95/115)
+ - [8] RunTask
+
+
+2026-01-14 12:24:03,370 [T14-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: StartTask - T_Download_Files
+##############################################################
+f5fbb075-1058-4c53-a607-c931b439040f
+T_Download_Files
+
+
+2026-01-14 12:24:03,376 [T14-ScriptEngine] INFO  JobRequest
+**************************************************************
+*** TASK: T_Download_Files
+**************************************************************
+ - STEP 116: S0cd63776d89744718d64094c0e2fb14e (1/20) - (96/115)
+ - [1] ChromeGetListData
+
+
+2026-01-14 12:24:06,452 [T11] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:24:06,458 [T11] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:24:06,591 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 117: S25457d1dbb22441cb362b7e6da5376cb (2/20) - (97/115)
+ - [2] ExecuteScript
+
+
+2026-01-14 12:24:06,606 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 118: S76215f0918954da1968f8e59dfcc324c (3/20) - (98/115)
+ - [3] IsFileExist
+
+
+2026-01-14 12:24:06,621 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 119: Sfca123365eb247dda29ff7ecd2efb126 (4/20) - (99/115)
+ - [4] ChromeClick
+
+
+2026-01-14 12:24:06,626 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:24:06,630 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:24:06,632 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:24:06,637 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:24:06,637 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:24:06,793 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 120: Se5b8b6b8300b49aaa2b7b3e3eff91674 (5/20) - (100/115)
+ - [5] TextInput
+
+
+2026-01-14 12:24:06,824 [T11] INFO  WinFinder
+Finding Object In App... Try: 1, IsLastTry: False. AppCount: 1
+
+2026-01-14 12:24:06,824 [T11] DEBUG WinElementTargetFinder
+## Object Find In App (name: '예측 페이지 - Chrome')
+
+2026-01-14 12:24:07,080 [T11] INFO  WinFinder
+Finding Object In App... Try: 2, IsLastTry: False. AppCount: 1
+
+2026-01-14 12:24:07,080 [T11] DEBUG WinElementTargetFinder
+## Object Find In App (name: '예측 페이지 - Chrome')
+
+2026-01-14 12:24:07,319 [T11] INFO  WinFinder
+Finding Object In App... Try: 3, IsLastTry: False. AppCount: 1
+
+2026-01-14 12:24:07,320 [T11] DEBUG WinElementTargetFinder
+## Object Find In App (name: '예측 페이지 - Chrome')
+
+2026-01-14 12:24:07,679 [T11] INFO  WinFinder
+Finding Object In App... Try: 4, IsLastTry: False. AppCount: 1
+
+2026-01-14 12:24:07,872 [T11] DEBUG WinElementTargetFinder
+## Object Find In App (name: '예측 페이지 - Chrome')
+
+2026-01-14 12:24:07,925 [T11] INFO  WinFinder
+ . Finding Object by 'RelativePoint Search' (Try: 4) ... 
+
+2026-01-14 12:24:07,993 [T14-ScriptEngine] INFO  WinFinder
+Finding Result: Found by 'ObjectPathEx' method. (Total: 1)
+ - name: '파일 이름:'
+ - value: '업종별_매출_데이터'
+
+2026-01-14 12:24:12,873 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 121: S4bb1e8485d5b4972b13a4c037464ae8e (6/20) - (101/115)
+ - [6] IfThen
+
+
+2026-01-14 12:24:12,889 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 122: S6b750ceab06b48b8b75675fc83895b5c (8/20) - (103/115)
+ - [8] End-IfThen
+
+
+2026-01-14 12:24:12,905 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 123: S482c308ea74546c9bcd6e880c6a6c679 (9/20) - (104/115)
+ - [9] Delay
+
+
+2026-01-14 12:24:13,934 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 124: Sabf2915202924ffe87a99eda4ca6c999 (10/20) - (105/115)
+ - [10] OpenExcel
+
+
+2026-01-14 12:24:15,342 [T14-ScriptEngine] DEBUG ExcelBase
+Requested Excel Text Delimiter: ',', OS List Seperator: ','
+
+2026-01-14 12:24:16,640 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 125: S6b20e926ba474aadb35c1c876a4bd3c4 (11/20) - (106/115)
+ - [11] Delay
+
+
+2026-01-14 12:24:18,665 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 126: S66a8b8ebfac24036bb00eadec9d30603 (12/20) - (107/115)
+ - [12] CloseExcel
+
+
+2026-01-14 12:24:18,769 [T14-ScriptEngine] DEBUG ExcelBase
+DisposeExcel
+
+2026-01-14 12:24:20,041 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 127: Sc3d2e0a57c2b49ab948ae94d531431a1 (13/20) - (108/115)
+ - [13] ChromeClick
+
+
+2026-01-14 12:24:20,047 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:24:20,052 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:24:20,055 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:24:20,061 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:24:20,062 [T14-ScriptEngine] DEBUG RestorePuppeteer
+Restore Session Start
+
+2026-01-14 12:24:20,513 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 128: S2e5ff02db5b24bb8b8b347a111e77655 (14/20) - (109/115)
+ - [14] TextInput
+
+
+2026-01-14 12:24:20,541 [T21] INFO  WinFinder
+Finding Object In App... Try: 1, IsLastTry: False. AppCount: 1
+
+2026-01-14 12:24:20,542 [T21] DEBUG WinElementTargetFinder
+## Object Find In App (name: '예측 페이지 - Chrome')
+
+2026-01-14 12:24:20,831 [T21] INFO  WinFinder
+Finding Object In App... Try: 2, IsLastTry: False. AppCount: 1
+
+2026-01-14 12:24:20,832 [T21] DEBUG WinElementTargetFinder
+## Object Find In App (name: '예측 페이지 - Chrome')
+
+2026-01-14 12:24:21,058 [T21] INFO  WinFinder
+Finding Object In App... Try: 3, IsLastTry: False. AppCount: 1
+
+2026-01-14 12:24:21,060 [T21] DEBUG WinElementTargetFinder
+## Object Find In App (name: '예측 페이지 - Chrome')
+
+2026-01-14 12:24:21,632 [T21] INFO  WinFinder
+ . Finding Object by 'RelativePoint Search' (Try: 3) ... 
+
+2026-01-14 12:24:21,693 [T14-ScriptEngine] INFO  WinFinder
+Finding Result: Found by 'BottomUp' method. (Total: 1)
+ - name: '파일 이름:'
+ - value: '업종별_매출_분석_보고서'
+
+2026-01-14 12:24:26,568 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 129: S0a9fa846b9fa4282a8139b8af71cb7aa (15/20) - (110/115)
+ - [15] IfThen
+
+
+2026-01-14 12:24:26,583 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 130: Sbf0b7cba46ea4565a46c035387d9fee2 (17/20) - (112/115)
+ - [17] End-IfThen
+
+
+2026-01-14 12:24:26,598 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 131: S5f652d68be2e4e12ab4d6a4ffcd3e700 (18/20) - (113/115)
+ - [18] Delay
+
+
+2026-01-14 12:24:27,622 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 132: S71b7fb51b3cb4780aab9fa142f69cfef (19/20) - (114/115)
+ - [19] OpenBrowser
+
+
+2026-01-14 12:24:27,641 [T14-ScriptEngine] INFO  UiaAppHelper
+Open App: C:\Program Files\Internet Explorer\iexplore.exe
+Arguments: C:\Users\5Class_012\Desktop\Project_Result\2027년2분기일식음식점분석ㆍ예측보고서.pdf
+Derived App: iexplore
+
+2026-01-14 12:24:27,781 [T14-ScriptEngine] INFO  UiaAppHelper
+Process 'iexplore'(pid: 8020) Started.
+
+2026-01-14 12:24:28,295 [T14-ScriptEngine] WARN  UiaAppHelper
+The newly launched process(PID:8020) is immediately terminated.
+
+2026-01-14 12:24:31,431 [T14-ScriptEngine] DEBUG UiaAppHelper
+Timeout - The number of new target application windows: 0
+
+2026-01-14 12:24:31,431 [T14-ScriptEngine] ERROR UiaAppHelper
+앱 프로세스가 시작되었으나 실행 상태를 확인할 수 없습니다.
+앱 실행을 위한 명령어와 실행인자, 실행 확인을 위한 검사 속성을 확인해주세요.
+이미 실행 중인 앱이 명령을 처리하거나 새로 시작된 앱이 즉시 종료되는 경우, 앱의 실행을 검사하지 않도록 'Derived App'을 null로 설정하세요.
+
+ - Command: C:\Program Files\Internet Explorer\iexplore.exe
+ - Arguments: C:\Users\5Class_012\Desktop\Project_Result\2027년2분기일식음식점분석ㆍ예측보고서.pdf
+ - Derived App: iexplore
+ - WaitTime: 3
+
+2026-01-14 12:24:31,437 [T14-ScriptEngine] WARN  ScriptSupport
+CatchException: 앱 프로세스가 시작되었으나 실행 상태를 확인할 수 없습니다.
+앱 실행을 위한 명령어와 실행인자, 실행 확인을 위한 검사 속성을 확인해주세요.
+이미 실행 중인 앱이 명령을 처리하거나 새로 시작된 앱이 즉시 종료되는 경우, 앱의 실행을 검사하지 않도록 'Derived App'을 null로 설정하세요.
+
+ - Command: C:\Program Files\Internet Explorer\iexplore.exe
+ - Arguments: C:\Users\5Class_012\Desktop\Project_Result\2027년2분기일식음식점분석ㆍ예측보고서.pdf
+ - Derived App: iexplore
+ - WaitTime: 3
+
+2026-01-14 12:24:31,446 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 133: S840b24741ad045f6bf2a506b9a0e20ca (20/20) - (115/115)
+ - [20] MouseScroll
+
+
+2026-01-14 12:24:31,475 [T21] INFO  WinFinder
+Finding Object In App... Try: 1, IsLastTry: False. AppCount: 1
+
+2026-01-14 12:24:31,476 [T21] DEBUG WinElementTargetFinder
+## Object Find In App (name: '2027년2분기일식음식점분석ㆍ예측보고서.pdf - 프로...')
+
+2026-01-14 12:24:31,554 [T21] INFO  WinFinder
+ . Finding Object by 'RelativePoint Search' (Try: 1) ... 
+
+2026-01-14 12:24:31,713 [T14-ScriptEngine] INFO  WinFinder
+Finding Result: Found by 'ObjectPathEx' method. (Total: 1)
+ - name: 'PDF Document'
+ - value: ''
+
+2026-01-14 12:24:35,044 [T14-ScriptEngine] INFO  JobRunner
+[PASS] TASK: T_Download_Files
+
+2026-01-14 12:24:35,045 [T14-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: EndTask - T_Download_Files
+##############################################################
+f5fbb075-1058-4c53-a607-c931b439040f
+T_Download_Files
+
+
+2026-01-14 12:24:35,045 [T14-ScriptEngine] INFO  JobRunner
+[PASS] TASK: T_Predict_Main
+
+2026-01-14 12:24:35,045 [T14-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: EndTask - T_Predict_Main
+##############################################################
+0a26ebd0-9be9-4b98-bf97-94fa0587de92
+T_Predict_Main
+
+
+2026-01-14 12:24:35,045 [T14-ScriptEngine] INFO  JobRunner
+[PASS] TASK: T_Open_Project
+
+2026-01-14 12:24:35,045 [T14-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: EndTask - T_Open_Project
+##############################################################
+644595fd-ab5e-4854-9e71-cb7dce895187
+T_Open_Project
+
+
+2026-01-14 12:24:35,045 [T14-ScriptEngine] INFO  JobRunner
+[PASS] TASK: P_Team1_Main_RPA
+
+2026-01-14 12:24:35,046 [T14-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: EndProcess - P_Team1_Main_RPA
+##############################################################
+3745e8e7-3d51-443e-b58a-4ac32a5f16c5
+P_Team1_Main_RPA
+
+
+2026-01-14 12:24:35,067 [T14-ScriptEngine] INFO  JobRunner
+RunProcess - Job Result: {}
+
+2026-01-14 12:24:35,068 [T14-ScriptEngine] DEBUG JobManager
+Set Result State: Completed
+
+2026-01-14 12:24:35,073 [T14-ScriptEngine] INFO  JobRunner
+Make report.
+
+2026-01-14 12:24:35,138 [T14-ScriptEngine] INFO  JobRunner
+Start to clean up resources.
+
+2026-01-14 12:24:35,141 [T21] DEBUG JobRunner
+Start timer for checking the job to be completed.
+
+2026-01-14 12:24:35,142 [T14-ScriptEngine] DEBUG JobRunner
+OnProcessCompleted
+
+2026-01-14 12:24:35,144 [T14-ScriptEngine] INFO  JobRunner
+Start to clean up resources.
+
+2026-01-14 12:24:35,146 [T14-ScriptEngine] DEBUG JobRunner
+Remove all libraries
+
+2026-01-14 12:24:35,147 [T14-ScriptEngine] DEBUG NetPlayer
+WebPlayer OnDispose
+
+2026-01-14 12:24:35,150 [T14-ScriptEngine] DEBUG WebPlayer
+WebPlayer OnDispose : Do Nothing
+
+2026-01-14 12:24:35,150 [T14-ScriptEngine] DEBUG UIAEventHandler
+Stop UIA event handler
+
+2026-01-14 12:24:35,151 [T14-ScriptEngine] DEBUG UIAEventHandler
+Stop UIA event handler
+
+2026-01-14 12:24:35,163 [T14-ScriptEngine] DEBUG UiaAppHelper
+WinHelper DisposeAppList Count: 3
+
+2026-01-14 12:24:35,163 [T14-ScriptEngine] INFO  JobRunner
+All Resources Clear
+
+2026-01-14 12:24:35,167 [T14-ScriptEngine] DEBUG JobRunner
+OnCompleted
+
+2026-01-14 12:24:35,167 [T14-ScriptEngine] DEBUG JobRunner
+SendJobResult: Completed
+
+2026-01-14 12:24:35,168 [T14-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: Completed
+##############################################################
+{}
+
+
+2026-01-14 12:24:35,168 [T14-ScriptEngine] INFO  JobRequest
+Last job life cycle state: Completed
+
+2026-01-14 12:24:35,168 [T14-ScriptEngine] INFO  JobRequest
+Update skipped current step informations.
+
+2026-01-14 12:24:35,171 [T14-ScriptEngine] DEBUG JobDBManager
+Set last life-cycle state: Completed - {}
+
+2026-01-14 12:24:35,200 [T14-ScriptEngine] INFO  JobRequest
+##############################################################
+### JOB COMPLETED
+##############################################################
+
+
+2026-01-14 12:24:35,201 [T12] DEBUG JobRequest
+Callback - State: Completed
+{}
+
+2026-01-14 12:24:35,202 [T12] INFO  JobRequest
+Callback - EngineClosed
+
+2026-01-14 12:24:35,203 [T12] INFO  JobService
+Disconnect agent service
+
+2026-01-14 12:24:35,206 [T12] DEBUG JobRequest
+End of Callback Sender
+

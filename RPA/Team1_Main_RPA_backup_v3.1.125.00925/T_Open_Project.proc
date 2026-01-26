@@ -1,0 +1,108 @@
+<Process id="644595fd-ab5e-4854-9e71-cb7dce895187" type="task" workType="foreground" name="T_Open_Project" version="" designerVersion="3.1.125.00925" lastPublishedServer="" readonly="false" isValid="true" DesignedBy="Designer" Template="" StepCount="3" Orientation="horizontal">
+  <Properties>
+    <Property key="Description" controlType="PropertyItemTextEditorView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" enabled="True" />
+    <Property key="onBefore" controlType="PropertyItemEventHandlerView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" enabled="True" />
+    <Property key="onAfter" controlType="PropertyItemEventHandlerView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" enabled="True" />
+    <Property key="onError" controlType="PropertyItemEventHandlerView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" enabled="True" />
+    <Property key="Timeout" controlType="Int32" valueType="System.Int32" formatType="Integer" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="0" />
+    <Property key="RunningTime" controlType="Int32" valueType="System.Int32" formatType="Integer" required="False" visible="True" readonly="True" encrypted="False" isChanged="N" value="26" />
+    <Property key="Os" controlType="String" valueType="System.String" formatType="String" required="False" visible="True" readonly="True" encrypted="False" isChanged="N" value="Microsoft Windows 10 Pro64비트" />
+    <Property key="Resolution" controlType="String" valueType="System.String" formatType="String_Size" required="False" visible="True" readonly="True" encrypted="False" isChanged="N" value="3520x1080" />
+    <Property key="CreatedDate" controlType="String" valueType="System.String" formatType="String_DateTime" required="False" visible="True" readonly="True" encrypted="False" isChanged="N" value="2025-12-22 17:27:52" />
+    <Property key="CreatedBy" controlType="String" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+    <Property key="LastModifiedDate" controlType="String" valueType="System.String" formatType="String_DateTime" required="False" visible="True" readonly="True" encrypted="False" isChanged="N" value="2025-12-26 09:43:52" />
+    <Property key="LastModifiedBy" controlType="String" valueType="System.String" formatType="String" required="False" visible="True" readonly="True" encrypted="False" isChanged="N" value="" />
+    <Property key="LastPublishedDate" controlType="String" valueType="System.String" formatType="String_DateTime" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+    <Property key="LastPublishedBy" controlType="String" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+  </Properties>
+  <LinkItems />
+  <Variables>
+    <Variable name="Sample_OCR" scope="Normal" valueType="Any" formatType="Any" initValue="'C:\\Users\\5Class_012\\Desktop\\project\\Team_1_Main\\Flask\\static\\tmp_image\\OCR_SAMPLE.png'" desc="" colorValue="#FF7149C6" showMarker="False" />
+    <Variable name="Project_URL" scope="Normal" valueType="Any" formatType="Any" initValue="" desc="" colorValue="#FFF07DEA" showMarker="False" />
+  </Variables>
+  <Steps>
+    <Step id="Sa4294cd24d404288b1f0050eb10db198" ver="311241220" createVer="311241220" type="Chrome" name="ChromeOpen" dpName="ChromeOpen" dpValue="http://localhost:8765" dpValue2="" dpImage="" tag="" depth="1" stmttype="Normal" enabled="True" mainSet="0">
+      <Properties id="7aef599f-d13c-49cc-a3c7-916086b24aed" type="Chrome">
+        <Property type="Chrome" key="Options_OnError" controlType="PropertyItemEventHandlerView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+        <Property type="Chrome" key="Key_Description" controlType="PropertyItemTextEditorView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+        <Property type="Chrome" key="CHROME_Browser" controlType="OutputControlType" valueType="System.Object" formatType="Variable" required="True" visible="True" readonly="False" encrypted="False" isChanged="N" value="RESULT" />
+        <Property type="Chrome" key="CHROME_TypeOfBrowser" controlType="PropertyItemDropDownView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="Chrome" valuelist="Chrome;Edge" />
+        <Property type="Chrome" key="CHROME_BrowserType" controlType="Boolean" valueType="System.Boolean" formatType="Boolean" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="False" />
+        <Property type="Chrome" key="CHROME_URL" controlType="String" valueType="System.String" formatType="String" required="True" visible="True" readonly="False" encrypted="False" isChanged="N" value="'http://localhost:8765'" />
+        <Property type="Chrome" key="CHROME_ChromePath" controlType="File" valueType="System.String" formatType="String_FilePath" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+        <Property type="Chrome" key="CHROME_Maximize" controlType="Boolean" valueType="System.Boolean" formatType="Boolean" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="True" />
+        <Property type="Chrome" key="CHROME_WaitTimeSec" controlType="Int32" valueType="System.Int32" formatType="Integer" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="60" />
+        <Property type="Chrome" key="CHROME_ExtensionList" controlType="PropertyItemChromeInstalledExtensionsView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+        <Property type="Chrome" key="CHROME_DownloadPath" controlType="Folder" valueType="System.String" formatType="String_DirectoryPath" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+        <Property type="Chrome" key="CHROME_WindowsAccountPermissions" controlType="Boolean" valueType="System.Boolean" formatType="Boolean" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="False" />
+        <Property type="Chrome" key="CHROME_UserAgent" controlType="String" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+        <Property type="Chrome" key="CHROME_DisableAutomationControl" controlType="Boolean" valueType="System.Boolean" formatType="Boolean" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="False" />
+        <Property type="Chrome" key="CHROME_UserLaunchOptions" controlType="String" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+      </Properties>
+      <RelatedSteps />
+      <Script><![CDATA[RESULT = StepPlayer.Run('Chrome.ChromeOpen', this.chromeopen_info_1);]]></Script>
+    </Step>
+    <Step id="S2427e640640243b5bd69d543910da645" ver="311241220" createVer="311241220" type="Flow" name="RunTask" dpName="RunTask" dpValue="" dpValue2="" dpImage="" tag="" depth="1" stmttype="Normal" enabled="True" mainSet="0">
+      <Properties id="dbad8b00-f161-4346-b964-26f2abc45bbc" type="Flow">
+        <Property type="Flow" key="Options_OnError" controlType="PropertyItemEventHandlerView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+        <Property type="Flow" key="Key_Description" controlType="PropertyItemTextEditorView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+        <Property type="Flow" key="Conditions_TaskName" controlType="String" valueType="System.String" formatType="String" required="False" visible="True" readonly="True" encrypted="False" isChanged="N" value="T_Update_Main" />
+      </Properties>
+      <RelatedSteps />
+      <Script><![CDATA[RunTask(this, 'T_Update_Main', null);]]></Script>
+    </Step>
+    <Step id="S2792b6d81c864f6e9ee60b37066073d5" ver="311241220" createVer="311241220" type="Flow" name="RunTask" dpName="RunTask" dpValue="" dpValue2="" dpImage="" tag="" depth="1" stmttype="Normal" enabled="True" mainSet="0">
+      <Properties id="c8b3ed01-b95e-454a-a03e-b99a0c0e45cd" type="Flow">
+        <Property type="Flow" key="Options_OnError" controlType="PropertyItemEventHandlerView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+        <Property type="Flow" key="Key_Description" controlType="PropertyItemTextEditorView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+        <Property type="Flow" key="Conditions_TaskName" controlType="String" valueType="System.String" formatType="String" required="False" visible="True" readonly="True" encrypted="False" isChanged="N" value="T_Predict_Main" />
+      </Properties>
+      <RelatedSteps />
+      <Script><![CDATA[RunTask(this, 'T_Predict_Main', null);]]></Script>
+    </Step>
+  </Steps>
+  <JScript><![CDATA[function T_Open_Project() {
+
+    this.Sample_OCR = 'C:\\Users\\5Class_012\\Desktop\\project\\Team_1_Main\\Flask\\static\\tmp_image\\OCR_SAMPLE.png';
+    this.Project_URL;
+
+    this.RPAGOTOENABLE = false;
+    this.GotoStepRetryCntMap = {};
+    this.GotoBlockMap = {};
+    this.GotoReverseBlockMap = {};
+    this.GotoStepBlockTypeMap = {};
+
+
+    this.run = function() {
+
+        //------------------------------------------------
+        STEP('Sa4294cd24d404288b1f0050eb10db198', '[1] ChromeOpen');
+        RESULT = StepPlayer.Run('Chrome.ChromeOpen', this.chromeopen_info_1);
+
+        //------------------------------------------------
+        STEP('S2427e640640243b5bd69d543910da645', '[2] RunTask');
+        RunTask(this, 'T_Update_Main', null);
+
+        //------------------------------------------------
+        STEP('S2792b6d81c864f6e9ee60b37066073d5', '[3] RunTask');
+        RunTask(this, 'T_Predict_Main', null);
+
+
+    }
+
+    this.execute = function() {
+        var result = null;
+        result = this.run()
+        if (result != null)
+            return result;
+    }
+}
+]]></JScript>
+  <Diagram version="1.300" nodesize="Normal">
+    <StepNodes>
+      <StepNode step_id="Sa4294cd24d404288b1f0050eb10db198" group_name="31d69b80-8960-426a-9f87-0c50e484d01d_OPEN_PROJECT_PAGE" folded="False" color="" />
+      <StepNode step_id="S2427e640640243b5bd69d543910da645" group_name="" folded="False" color="" />
+      <StepNode step_id="S2792b6d81c864f6e9ee60b37066073d5" group_name="" folded="False" color="" />
+    </StepNodes>
+  </Diagram>
+</Process>

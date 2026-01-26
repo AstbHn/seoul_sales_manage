@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Result id="5321d6cd-80eb-4b5f-8cb9-8d5351b7e1cc" name="T_Get_Raw_CSV" result="Stop" detail="Process: T_Get_Raw_CSV&#xA;Step: ChromeClick (4/15)&#xA;&#xA;Stopped by User" start="2026-01-14T03:17:18.844" end="2026-01-14T03:17:30.255" jobId="Designer_20260114_121715_842">
+  <Step id="S9eddaecfb54e4c3eae7025a932969325" taskName="T_Get_Raw_CSV" type="Chrome" name="ChromeOpen" displayName="ChromeOpen" callDepth="1" depth="1" num="1" result="Pass" start="2026-01-14T03:17:18.915" end="2026-01-14T03:17:25.517" displayTime="6.6s">
+    <Variables>
+      <Variable name="RESULT" scope="System" declareType="Any" isChanged="false" isChangable="true" runtimeType="Any" value="&lt;null&gt;" />
+      <Variable name="data_URL" scope="Normal" owner="T_Get_Raw_CSV" declareType="Any" isChanged="false" isChangable="true" runtimeType="String" value="'https://www.data.go.kr/'" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="RESULT : &lt;object:ChromeBrowserObject&gt;" runtimeType="Any" key="CHROME_Browser" displayKey="Browser" visible="true" required="true" />
+      <Property value="Chrome" runtimeType="String" key="CHROME_TypeOfBrowser" displayKey="Browser Type" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="CHROME_BrowserType" displayKey="Headless Mode" visible="true" required="false" />
+      <Property value="'https://www.data.go.kr/'" runtimeType="String" key="CHROME_URL" displayKey="URL" visible="true" required="true" />
+      <Property value="" runtimeType="String" key="CHROME_ChromePath" displayKey="Browser Path" visible="true" required="false" />
+      <Property value="true" runtimeType="Boolean" key="CHROME_Maximize" displayKey="Maximize" visible="true" required="false" />
+      <Property value="60" runtimeType="Integer" key="CHROME_WaitTimeSec" displayKey="Page Load Timeout" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_ExtensionList" displayKey="Included Extensions" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_DownloadPath" displayKey="Download Path" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="CHROME_WindowsAccountPermissions" displayKey="Windows Account Permissions" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_UserAgent" displayKey="User Agent" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="CHROME_DisableAutomationControl" displayKey="Disable AutomationControl" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_UserLaunchOptions" displayKey="Launch Options" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="Sa3d8047c0f944144942db7b7e005bd7d" taskName="T_Get_Raw_CSV" type="Chrome" name="ChromeSetText" displayName="ChromeSetText" callDepth="1" depth="1" num="2" result="Pass" start="2026-01-14T03:17:25.539" end="2026-01-14T03:17:26.999" displayTime="1.5s">
+    <Variables>
+      <Variable name="search_value" scope="Normal" owner="T_Get_Raw_CSV" declareType="Any" isChanged="false" isChangable="false" runtimeType="String" value="'서울특별시_우리마을가게 상권분석서비스(상권-추정매출)'" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="&lt;LatestBrowser&gt;" runtimeType="Any" key="CHROME_Browser" displayKey="Browser" visible="true" required="true" />
+      <Property value="10" runtimeType="Integer" key="CHROME_WaitTimeSec" displayKey="Page Load Timeout" visible="true" required="true" />
+      <Property value="'https://www.data.go.kr/'" runtimeType="String" key="CHROME_PageUrl" displayKey="Page Url" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="CHROME_UsePageUrl" displayKey="UsePageUrl" visible="false" required="false" />
+      <Property value="https://www.data.go.kr/" runtimeType="String" key="CHROME_FullPageUrl" displayKey="FullPageUrl" visible="false" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_IframeSrc" displayKey="Iframe Source" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_IframeIndexes" displayKey="Iframe Index" visible="true" required="false" />
+      <Property value="'/html/body/div[2]/div/div/div/div[2]/div[1]/form/div[1]/input'" runtimeType="String" key="CHROME_ElementPath" displayKey="Element Path" visible="true" required="false" />
+      <Property value="'//input[@id=\'keyword\']'" runtimeType="String" key="CHROME_ExecuteQuery" displayKey="ExecuteQuery" visible="true" required="true" />
+      <Property value="true" runtimeType="Boolean" key="CHROME_QueryType" displayKey="Query Type" visible="true" required="false" />
+      <Property value="&lt;Too Long&gt; H4sIAAAAAAAEAO297XsTR7Io/tn+KzoTzkpOLMmvvBjbuwRIlt0E+AWyZ/cXcn3H0tieIGm0MyPASXweQ0weLzgnsIuDIYZjbiCQ ... 28648 more" runtimeType="String" key="CHROME_FullHTML" displayKey="FullHTML" visible="false" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_Element" displayKey="Element" visible="false" required="false" />
+      <Property value="true" runtimeType="Boolean" key="Keyboard_ClearAll" displayKey="ClearAll" visible="true" required="false" />
+      <Property value="'서울특별시_우리마을가게 상권분석서비스(상권-추정매출)'" runtimeType="String" key="Keyboard_NewText" displayKey="Input Text" visible="true" required="true" />
+      <Property value="true" runtimeType="Boolean" key="Keyboard_UseDone" displayKey="Done(Enter)" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="CHROME_Invoke" displayKey="Invoke" visible="true" required="false" />
+      <Property value="&lt;Too Long&gt; [{&quot;Index&quot;:0,&quot;Tag&quot;:&quot;INPUT&quot;,&quot;Data&quot;:[{&quot;Name&quot;:&quot;index&quot;,&quot;Value&quot;:&quot;&quot;,&quot;IsUse&quot;:false},{&quot;Name&quot;:&quot;type&quot;,&quot;Value&quot;:&quot; ... 1493 more" runtimeType="String" key="CHROME_ChromeElements" displayKey="ChromeElements" visible="false" required="false" />
+      <Property value="''" runtimeType="String" key="CHROME_SingleQueryForMultiple" displayKey="SingleQueryForMultiple" visible="false" required="false" />
+      <Property value="https://www.data.go.kr/" runtimeType="String" key="CHROME_PagesearchUrl" displayKey="PagesearchUrl" visible="false" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_IframeFullSrc" displayKey="IframeFullSrc" visible="false" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_IframeSearchSrc" displayKey="IframeSearchSrc" visible="false" required="false" />
+      <Property value="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" runtimeType="Bitmap" key="Target_Capture" displayKey="Image" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="CHROME_IsTextEdit" displayKey="IsTextEdit" visible="false" required="false" />
+      <Property value="INPUT" runtimeType="String" key="CHROME_HTMLTagName" displayKey="HTMLTagName" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_IsPassword" displayKey="IsPassword" visible="false" required="false" />
+      <Property value="Designer" runtimeType="String" key="Target_CapturedBy" displayKey="CapturedBy" visible="false" required="false" />
+      <Property value="7764" runtimeType="Integer" key="Application_PID" displayKey="PID" visible="false" required="false" />
+      <Property value="chrome" runtimeType="String" key="Application_ProcessName" displayKey="ProcessName" visible="true" required="true" />
+      <Property value="'공공데이터포털 - Chrome'" runtimeType="String" key="Application_Title" displayKey="Title" visible="true" required="true" />
+      <Property value="Window" runtimeType="String" key="Application_ClassType" displayKey="ClassType" visible="false" required="false" />
+      <Property value="1912,166,1616,876" runtimeType="Rect" key="Application_Bounds" displayKey="Bounds" visible="false" required="false" />
+      <Property value="Chrome_WidgetWin_1" runtimeType="String" key="Application_ClassName" displayKey="ClassName" visible="false" required="false" />
+      <Property value="&lt;Too Long&gt; 'Window|Chrome_WidgetWin_1||Win32/Pane|BrowserRootView||Chrome/Pane|NonClientView||Chrome/Pane|Brows ... 390 more" runtimeType="String" key="Target_ObjectPath" displayKey="ObjectPath" visible="false" required="true" />
+      <Property value="&lt;Too Long&gt; 'Window|Chrome_WidgetWin_1||Win32|False||4|공공데이터포털 - Chrome/Pane|BrowserRootView||Chrome|False||1|공공 ... 635 more" runtimeType="String" key="Target_ObjectPathEx" displayKey="ObjectPathEx" visible="true" required="true" />
+      <Property value="" runtimeType="String" key="Target_RelativePath" displayKey="RelativePath" visible="true" required="false" />
+      <Property value="Edit" runtimeType="String" key="Target_ClassType" displayKey="ClassType" visible="true" required="true" />
+      <Property value="320,397,721,64" runtimeType="Rect" key="Target_Bounds" displayKey="Bounds" visible="true" required="false" />
+      <Property value="'어떤 공공데이터를 찾으시나요?'" runtimeType="String" key="Target_Name" displayKey="Name" visible="true" required="true" />
+      <Property value="''" runtimeType="String" key="Target_Value" displayKey="Value" visible="true" required="true" />
+      <Property value="'어떤 공공데이터를 찾으시나요?'" runtimeType="String" key="Target_LegacyName" displayKey="LegacyName" visible="true" required="false" />
+      <Property value="''" runtimeType="String" key="Target_LegacyValue" displayKey="LegacyValue" visible="true" required="false" />
+      <Property value="''" runtimeType="String" key="Target_LegacyDesc" displayKey="LegacyDesc" visible="true" required="false" />
+      <Property value="'어떤 공공데이터를 찾으시나요?'" runtimeType="String" key="Target_LegacyHelp" displayKey="LegacyHelp" visible="true" required="false" />
+      <Property value="input-text" runtimeType="String" key="Target_ClassName" displayKey="ClassName" visible="false" required="false" />
+      <Property value="keyword" runtimeType="String" key="Target_AutomationID" displayKey="AutomationID" visible="false" required="false" />
+      <Property value="Chrome" runtimeType="String" key="Target_FrameworkID" displayKey="FrameworkID" visible="false" required="false" />
+      <Property value="42.1772348.4.275.8.8" runtimeType="String" key="Target_RuntimeID" displayKey="RuntimeID" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseSearchAround" displayKey="UseSearchAround" visible="false" required="false" />
+      <Property value="NotUse" runtimeType="String" key="Target_UseImageMatch" displayKey="UseImageMatch" visible="true" required="false" />
+      <Property value="JustBest" runtimeType="String" key="Target_ImageIndexMethod" displayKey="ImageIndexMethod" visible="true" required="false" />
+      <Property value="0" runtimeType="Integer" key="Target_SelectImageIndex" displayKey="SelectImageIndex" visible="true" required="false" />
+      <Property value="216,15" runtimeType="Size" key="Target_SizeTolerance" displayKey="SizeTolerance" visible="false" required="false" />
+      <Property value="Value;Text;ScrollItem" runtimeType="String" key="Target_SupportedPatterns" displayKey="SupportedPatterns" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Target_RemoteAppName" displayKey="RemoteAppName" visible="false" required="false" />
+      <Property value="2310,593" runtimeType="Point" key="Mouse_WinPoint" displayKey="WinPoint" visible="false" required="false" />
+      <Property value="398,427" runtimeType="Point" key="Mouse_AppPoint" displayKey="AppPoint" visible="false" required="false" />
+      <Property value="'78, 30'" runtimeType="String" key="Mouse_Point" displayKey="Click Point" visible="true" required="false" />
+      <Property value="Center" runtimeType="String" key="Mouse_OriginPoint" displayKey="Origin Point" visible="true" required="false" />
+      <Property value="'0, 0'" runtimeType="String" key="Mouse_OffsetPoint" displayKey="OffsetPoint" visible="false" required="false" />
+    </Properties>
+  </Step>
+  <Step id="S25ab93ebcede4a87a1a2924e97fda173" taskName="T_Get_Raw_CSV" type="Chrome" name="ChromeClick" displayName="ChromeClick" callDepth="1" depth="1" num="3" result="Pass" start="2026-01-14T03:17:27.011" end="2026-01-14T03:17:27.823" displayTime="0.8s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="&lt;LatestBrowser&gt;" runtimeType="Any" key="CHROME_Browser" displayKey="Browser" visible="true" required="true" />
+      <Property value="10" runtimeType="Integer" key="CHROME_WaitTimeSec" displayKey="Page Load Timeout" visible="true" required="true" />
+      <Property value="'https://www.data.go.kr/tcs/dss/selectDataSetList.do'" runtimeType="String" key="CHROME_PageUrl" displayKey="Page Url" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="CHROME_UsePageUrl" displayKey="UsePageUrl" visible="false" required="false" />
+      <Property value="&lt;Too Long&gt; https://www.data.go.kr/tcs/dss/selectDataSetList.do?keyword=%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC% ... 245 more" runtimeType="String" key="CHROME_FullPageUrl" displayKey="FullPageUrl" visible="false" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_IframeSrc" displayKey="Iframe Source" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_IframeIndexes" displayKey="Iframe Index" visible="true" required="false" />
+      <Property value="'/html/body/div[2]/div/div[2]/div/div[11]/div[2]/ul/li[1]/div[2]/a'" runtimeType="String" key="CHROME_ElementPath" displayKey="Element Path" visible="true" required="false" />
+      <Property value="'//div[@id=\'fileDataList\']/div[2]/ul/li[1]/div[2]/a'" runtimeType="String" key="CHROME_ExecuteQuery" displayKey="ExecuteQuery" visible="true" required="true" />
+      <Property value="true" runtimeType="Boolean" key="CHROME_QueryType" displayKey="Query Type" visible="true" required="false" />
+      <Property value="&lt;Too Long&gt; H4sIAAAAAAAEAOy9fXsTR7Yv+jf+FBUldyzPWJZfMSbYezOQZNgTXk4gszM3yeHKUtsWyJKm1YKwZ3MeAzLbwc5gJnb8EtkjZkwM ... 48936 more" runtimeType="String" key="CHROME_FullHTML" displayKey="FullHTML" visible="false" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_Element" displayKey="Element" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="CHROME_Invoke" displayKey="Invoke" visible="true" required="false" />
+      <Property value="&lt;Too Long&gt; [{&quot;Index&quot;:0,&quot;Tag&quot;:&quot;A&quot;,&quot;Data&quot;:[{&quot;Name&quot;:&quot;index&quot;,&quot;Value&quot;:&quot;&quot;,&quot;IsUse&quot;:false},{&quot;Name&quot;:&quot;href&quot;,&quot;Value&quot;:&quot;java ... 1518 more" runtimeType="String" key="CHROME_ChromeElements" displayKey="ChromeElements" visible="false" required="false" />
+      <Property value="''" runtimeType="String" key="CHROME_SingleQueryForMultiple" displayKey="SingleQueryForMultiple" visible="false" required="false" />
+      <Property value="&lt;Too Long&gt; https://www.data.go.kr/tcs/dss/selectDataSetList.do?keyword=%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC% ... 245 more" runtimeType="String" key="CHROME_PagesearchUrl" displayKey="PagesearchUrl" visible="false" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_IframeFullSrc" displayKey="IframeFullSrc" visible="false" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_IframeSearchSrc" displayKey="IframeSearchSrc" visible="false" required="false" />
+      <Property value="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" runtimeType="Bitmap" key="Target_Capture" displayKey="Image" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="CHROME_IsTextEdit" displayKey="IsTextEdit" visible="false" required="false" />
+      <Property value="A" runtimeType="String" key="CHROME_HTMLTagName" displayKey="HTMLTagName" visible="false" required="false" />
+      <Property value="Designer" runtimeType="String" key="Target_CapturedBy" displayKey="CapturedBy" visible="false" required="false" />
+      <Property value="17512" runtimeType="Integer" key="Application_PID" displayKey="PID" visible="false" required="false" />
+      <Property value="chrome" runtimeType="String" key="Application_ProcessName" displayKey="ProcessName" visible="true" required="true" />
+      <Property value="'데이터목록 | 공공데이터포털 - Chrome'" runtimeType="String" key="Application_Title" displayKey="Title" visible="true" required="true" />
+      <Property value="Window" runtimeType="String" key="Application_ClassType" displayKey="ClassType" visible="false" required="false" />
+      <Property value="1912,166,1616,876" runtimeType="Rect" key="Application_Bounds" displayKey="Bounds" visible="false" required="false" />
+      <Property value="Chrome_WidgetWin_1" runtimeType="String" key="Application_ClassName" displayKey="ClassName" visible="false" required="false" />
+      <Property value="&lt;Too Long&gt; 'Window|Chrome_WidgetWin_1||Win32/Pane|BrowserRootView||Chrome/Pane|NonClientView||Chrome/Pane|Brows ... 435 more" runtimeType="String" key="Target_ObjectPath" displayKey="ObjectPath" visible="false" required="true" />
+      <Property value="&lt;Too Long&gt; 'Window|Chrome_WidgetWin_1||Win32|False||4|데이터목록 __{or}__ 공공데이터포털 - Chrome/Pane|BrowserRootView||Chr ... 882 more" runtimeType="String" key="Target_ObjectPathEx" displayKey="ObjectPathEx" visible="true" required="true" />
+      <Property value="" runtimeType="String" key="Target_RelativePath" displayKey="RelativePath" visible="true" required="false" />
+      <Property value="Hyperlink" runtimeType="String" key="Target_ClassType" displayKey="ClassType" visible="true" required="true" />
+      <Property value="1294,241,87,33" runtimeType="Rect" key="Target_Bounds" displayKey="Bounds" visible="true" required="false" />
+      <Property value="'서울특별시_우리마을가게 상권분석서비스(상권-추정매출) 바로가기'" runtimeType="String" key="Target_Name" displayKey="Name" visible="true" required="true" />
+      <Property value="'javascript:void(0)'" runtimeType="String" key="Target_Value" displayKey="Value" visible="true" required="true" />
+      <Property value="'서울특별시_우리마을가게 상권분석서비스(상권-추정매출) 바로가기'" runtimeType="String" key="Target_LegacyName" displayKey="LegacyName" visible="true" required="false" />
+      <Property value="'javascript:void(0)'" runtimeType="String" key="Target_LegacyValue" displayKey="LegacyValue" visible="true" required="false" />
+      <Property value="''" runtimeType="String" key="Target_LegacyDesc" displayKey="LegacyDesc" visible="true" required="false" />
+      <Property value="''" runtimeType="String" key="Target_LegacyHelp" displayKey="LegacyHelp" visible="true" required="false" />
+      <Property value="button h32 white" runtimeType="String" key="Target_ClassName" displayKey="ClassName" visible="false" required="false" />
+      <Property value="" runtimeType="String" key="Target_AutomationID" displayKey="AutomationID" visible="false" required="false" />
+      <Property value="Chrome" runtimeType="String" key="Target_FrameworkID" displayKey="FrameworkID" visible="false" required="false" />
+      <Property value="42.1313478.4.5.11.6518" runtimeType="String" key="Target_RuntimeID" displayKey="RuntimeID" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseSearchAround" displayKey="UseSearchAround" visible="false" required="false" />
+      <Property value="NotUse" runtimeType="String" key="Target_UseImageMatch" displayKey="UseImageMatch" visible="true" required="false" />
+      <Property value="JustBest" runtimeType="String" key="Target_ImageIndexMethod" displayKey="ImageIndexMethod" visible="true" required="false" />
+      <Property value="0" runtimeType="Integer" key="Target_SelectImageIndex" displayKey="SelectImageIndex" visible="true" required="false" />
+      <Property value="30,15" runtimeType="Size" key="Target_SizeTolerance" displayKey="SizeTolerance" visible="false" required="false" />
+      <Property value="Invoke;Value;ScrollItem" runtimeType="String" key="Target_SupportedPatterns" displayKey="SupportedPatterns" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Target_RemoteAppName" displayKey="RemoteAppName" visible="false" required="false" />
+      <Property value="3254,421" runtimeType="Point" key="Mouse_WinPoint" displayKey="WinPoint" visible="false" required="false" />
+      <Property value="1342,255" runtimeType="Point" key="Mouse_AppPoint" displayKey="AppPoint" visible="false" required="false" />
+      <Property value="'48, 14'" runtimeType="String" key="Mouse_Point" displayKey="Click Point" visible="true" required="false" />
+      <Property value="Center" runtimeType="String" key="Mouse_OriginPoint" displayKey="Origin Point" visible="true" required="false" />
+      <Property value="'0, 0'" runtimeType="String" key="Mouse_OffsetPoint" displayKey="OffsetPoint" visible="false" required="false" />
+    </Properties>
+  </Step>
+  <Step id="S9aff3cdbf0ca4f498e55a6193f1b6b14" taskName="T_Get_Raw_CSV" type="Chrome" name="ChromeClick" displayName="ChromeClick" callDepth="1" depth="1" num="4" result="Stop" start="2026-01-14T03:17:27.838" end="2026-01-14T03:17:30.255" displayTime="2.4s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="&lt;LatestBrowser&gt;" runtimeType="Any" key="CHROME_Browser" displayKey="Browser" visible="true" required="true" />
+      <Property value="10" runtimeType="Integer" key="CHROME_WaitTimeSec" displayKey="Page Load Timeout" visible="true" required="true" />
+      <Property value="'https://data.seoul.go.kr/dataList/OA-15572/S/1/datasetView.do'" runtimeType="String" key="CHROME_PageUrl" displayKey="Page Url" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="CHROME_UsePageUrl" displayKey="UsePageUrl" visible="false" required="false" />
+      <Property value="https://data.seoul.go.kr/dataList/OA-15572/S/1/datasetView.do" runtimeType="String" key="CHROME_FullPageUrl" displayKey="FullPageUrl" visible="false" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_IframeSrc" displayKey="Iframe Source" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_IframeIndexes" displayKey="Iframe Index" visible="true" required="false" />
+      <Property value="'/html/body/div[1]/div[3]/section/div[2]/div/section/form/div[2]/div[3]/a/span'" runtimeType="String" key="CHROME_ElementPath" displayKey="Element Path" visible="true" required="false" />
+      <Property value="'//div[@id=\'listDownload\']/a/span'" runtimeType="String" key="CHROME_ExecuteQuery" displayKey="ExecuteQuery" visible="true" required="true" />
+      <Property value="true" runtimeType="Boolean" key="CHROME_QueryType" displayKey="Query Type" visible="true" required="false" />
+      <Property value="&lt;Too Long&gt; H4sIAAAAAAAEAOy9fXdbt5U3+rf8KU7ZPpHUQNLBeT+2pV7HTlPPxE4ndtrmtn30UCIlM6FIlaT80o67nMbpchPPJJnGEye1M87U ... 63864 more" runtimeType="String" key="CHROME_FullHTML" displayKey="FullHTML" visible="false" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_Element" displayKey="Element" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="CHROME_Invoke" displayKey="Invoke" visible="true" required="false" />
+      <Property value="&lt;Too Long&gt; [{&quot;Index&quot;:0,&quot;Tag&quot;:&quot;SPAN&quot;,&quot;Data&quot;:[{&quot;Name&quot;:&quot;index&quot;,&quot;Value&quot;:&quot;&quot;,&quot;IsUse&quot;:false}],&quot;IsUse&quot;:true},{&quot;Index&quot;:1 ... 2028 more" runtimeType="String" key="CHROME_ChromeElements" displayKey="ChromeElements" visible="false" required="false" />
+      <Property value="''" runtimeType="String" key="CHROME_SingleQueryForMultiple" displayKey="SingleQueryForMultiple" visible="false" required="false" />
+      <Property value="https://data.seoul.go.kr/dataList/OA-15572/S/1/datasetView.do" runtimeType="String" key="CHROME_PagesearchUrl" displayKey="PagesearchUrl" visible="false" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_IframeFullSrc" displayKey="IframeFullSrc" visible="false" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_IframeSearchSrc" displayKey="IframeSearchSrc" visible="false" required="false" />
+      <Property value="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" runtimeType="Bitmap" key="Target_Capture" displayKey="Image" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="CHROME_IsTextEdit" displayKey="IsTextEdit" visible="false" required="false" />
+      <Property value="SPAN" runtimeType="String" key="CHROME_HTMLTagName" displayKey="HTMLTagName" visible="false" required="false" />
+      <Property value="Designer" runtimeType="String" key="Target_CapturedBy" displayKey="CapturedBy" visible="false" required="false" />
+      <Property value="17512" runtimeType="Integer" key="Application_PID" displayKey="PID" visible="false" required="false" />
+      <Property value="chrome" runtimeType="String" key="Application_ProcessName" displayKey="ProcessName" visible="true" required="true" />
+      <Property value="'서울시 상권분석서비스(추정매출-상권)&gt; 데이터셋&gt; 공공데이터 | 서울열린데이터광장 - Chrome'" runtimeType="String" key="Application_Title" displayKey="Title" visible="true" required="true" />
+      <Property value="Window" runtimeType="String" key="Application_ClassType" displayKey="ClassType" visible="false" required="false" />
+      <Property value="1912,166,1616,876" runtimeType="Rect" key="Application_Bounds" displayKey="Bounds" visible="false" required="false" />
+      <Property value="Chrome_WidgetWin_1" runtimeType="String" key="Application_ClassName" displayKey="ClassName" visible="false" required="false" />
+      <Property value="&lt;Too Long&gt; 'Window|Chrome_WidgetWin_1||Win32/Pane|BrowserRootView||Chrome/Pane|NonClientView||Chrome/Pane|Brows ... 569 more" runtimeType="String" key="Target_ObjectPath" displayKey="ObjectPath" visible="false" required="true" />
+      <Property value="&lt;Too Long&gt; 'Window|Chrome_WidgetWin_1||Win32|False||3|서울시 상권분석서비스(추정매출-상권)&gt; 데이터셋&gt; 공공데이터 __{or}__ 서울열린데이터광장 - Ch ... 980 more" runtimeType="String" key="Target_ObjectPathEx" displayKey="ObjectPathEx" visible="true" required="true" />
+      <Property value="" runtimeType="String" key="Target_RelativePath" displayKey="RelativePath" visible="true" required="false" />
+      <Property value="Hyperlink" runtimeType="String" key="Target_ClassType" displayKey="ClassType" visible="true" required="true" />
+      <Property value="1188,578,78,22" runtimeType="Rect" key="Target_Bounds" displayKey="Bounds" visible="true" required="false" />
+      <Property value="'전체 파일보기'" runtimeType="String" key="Target_Name" displayKey="Name" visible="true" required="true" />
+      <Property value="'https://data.seoul.go.kr/dataList/OA-15572/S/1/datasetView.do#'" runtimeType="String" key="Target_Value" displayKey="Value" visible="true" required="true" />
+      <Property value="'전체 파일보기'" runtimeType="String" key="Target_LegacyName" displayKey="LegacyName" visible="true" required="false" />
+      <Property value="'https://data.seoul.go.kr/dataList/OA-15572/S/1/datasetView.do#'" runtimeType="String" key="Target_LegacyValue" displayKey="LegacyValue" visible="true" required="false" />
+      <Property value="''" runtimeType="String" key="Target_LegacyDesc" displayKey="LegacyDesc" visible="true" required="false" />
+      <Property value="''" runtimeType="String" key="Target_LegacyHelp" displayKey="LegacyHelp" visible="true" required="false" />
+      <Property value="link-txt" runtimeType="String" key="Target_ClassName" displayKey="ClassName" visible="false" required="false" />
+      <Property value="" runtimeType="String" key="Target_AutomationID" displayKey="AutomationID" visible="false" required="false" />
+      <Property value="Chrome" runtimeType="String" key="Target_FrameworkID" displayKey="FrameworkID" visible="false" required="false" />
+      <Property value="42.330644.4.40.7.974" runtimeType="String" key="Target_RuntimeID" displayKey="RuntimeID" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseSearchAround" displayKey="UseSearchAround" visible="false" required="false" />
+      <Property value="NotUse" runtimeType="String" key="Target_UseImageMatch" displayKey="UseImageMatch" visible="true" required="false" />
+      <Property value="JustBest" runtimeType="String" key="Target_ImageIndexMethod" displayKey="ImageIndexMethod" visible="true" required="false" />
+      <Property value="0" runtimeType="Integer" key="Target_SelectImageIndex" displayKey="SelectImageIndex" visible="true" required="false" />
+      <Property value="30,15" runtimeType="Size" key="Target_SizeTolerance" displayKey="SizeTolerance" visible="false" required="false" />
+      <Property value="Invoke;Value;ScrollItem" runtimeType="String" key="Target_SupportedPatterns" displayKey="SupportedPatterns" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Target_RemoteAppName" displayKey="RemoteAppName" visible="false" required="false" />
+      <Property value="3131,757" runtimeType="Point" key="Mouse_WinPoint" displayKey="WinPoint" visible="false" required="false" />
+      <Property value="1219,591" runtimeType="Point" key="Mouse_AppPoint" displayKey="AppPoint" visible="false" required="false" />
+      <Property value="'31, 13'" runtimeType="String" key="Mouse_Point" displayKey="Click Point" visible="true" required="false" />
+      <Property value="Center" runtimeType="String" key="Mouse_OriginPoint" displayKey="Origin Point" visible="true" required="false" />
+      <Property value="'0, 0'" runtimeType="String" key="Mouse_OffsetPoint" displayKey="OffsetPoint" visible="false" required="false" />
+    </Properties>
+  </Step>
+  <JobInfo>
+    <Info name="Bot Version" value="3.1.125.00925" />
+    <Info name="Resolution" value="3520 x 1080" />
+    <Info name="Language" value="한국어 (대한민국)" />
+    <Info name="BotID" value="S-DESIGNER-QNF7B" />
+  </JobInfo>
+</Result>

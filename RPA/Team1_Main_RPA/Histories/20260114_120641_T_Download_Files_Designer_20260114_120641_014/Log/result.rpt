@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Result id="f5fbb075-1058-4c53-a607-c931b439040f" name="T_Download_Files" result="Pass" detail="{}" start="2026-01-14T03:06:45.027" end="2026-01-14T03:06:49.848" jobId="Designer_20260114_120641_014">
+  <Step id="S5484bafbd90e481d95770ed6dcc09bf4" taskName="T_Download_Files" type="Chrome" name="ChromeOpen" displayName="ChromeOpen" callDepth="1" depth="1" num="19" result="Pass" start="2026-01-14T03:06:45.105" end="2026-01-14T03:06:49.842" displayTime="4.7s">
+    <Variables>
+      <Variable name="RESULT" scope="System" declareType="Any" isChanged="false" isChangable="true" runtimeType="Any" value="&lt;null&gt;" />
+      <Variable name="PDF" scope="Normal" owner="T_Download_Files" declareType="Any" isChanged="false" isChangable="true" runtimeType="Undefined" value="&lt;undefined&gt;" />
+      <Variable name="Result_Route" scope="Normal" owner="T_Download_Files" declareType="Any" isChanged="false" isChangable="true" runtimeType="String" value="'C:\\Users\\5Class_012\\Desktop\\Project_Result\\'" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="RESULT : &lt;object:ChromeBrowserObject&gt;" runtimeType="Any" key="CHROME_Browser" displayKey="Browser" visible="true" required="true" />
+      <Property value="Chrome" runtimeType="String" key="CHROME_TypeOfBrowser" displayKey="Browser Type" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="CHROME_BrowserType" displayKey="Headless Mode" visible="true" required="false" />
+      <Property value="'C:\\Users\\5Class_012\\Desktop\\Project_Result\\undefined'" runtimeType="String" key="CHROME_URL" displayKey="URL" visible="true" required="true" />
+      <Property value="" runtimeType="String" key="CHROME_ChromePath" displayKey="Browser Path" visible="true" required="false" />
+      <Property value="true" runtimeType="Boolean" key="CHROME_Maximize" displayKey="Maximize" visible="true" required="false" />
+      <Property value="60" runtimeType="Integer" key="CHROME_WaitTimeSec" displayKey="Page Load Timeout" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_ExtensionList" displayKey="Included Extensions" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_DownloadPath" displayKey="Download Path" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="CHROME_WindowsAccountPermissions" displayKey="Windows Account Permissions" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_UserAgent" displayKey="User Agent" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="CHROME_DisableAutomationControl" displayKey="Disable AutomationControl" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_UserLaunchOptions" displayKey="Launch Options" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <JobInfo>
+    <Info name="Bot Version" value="3.1.125.00925" />
+    <Info name="Resolution" value="3520 x 1080" />
+    <Info name="Language" value="한국어 (대한민국)" />
+    <Info name="BotID" value="S-DESIGNER-QNF7B" />
+  </JobInfo>
+</Result>

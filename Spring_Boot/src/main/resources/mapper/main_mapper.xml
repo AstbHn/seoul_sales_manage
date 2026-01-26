@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.project.team_project.mapper.MainMapper">
+
+    <resultMap id="SeoulDTOResult" type="com.project.team_project.domain.SeoulDTO">
+        <result property="sectorName" column="sector_name"/>
+        <result property="salesAmount" column="sales_amount"/>
+        <result property="salesCount" column="sales_count"/>
+        <result property="year" column="year"/>
+        <result property="quarter" column="quarter"/>
+    </resultMap>
+
+    <insert id="insertAllSeoulData" parameterType="java.util.List">
+        INSERT INTO team1Table (sector_name, year, quarter, sales_amount, sales_count)
+        VALUES
+        <foreach collection="list" item="item" separator=",">
+            (#{item.sectorName}, #{item.year}, #{item.quarter}, #{item.salesAmount}, #{item.salesCount})
+        </foreach>
+    </insert>
+
+    <select id="selectAllSeoulData" resultMap="SeoulDTOResult">
+        SELECT * FROM team1Table
+        ORDER BY year ASC, quarter ASC
+    </select>
+
+    <select id="selectSeoulDataByCondition" resultType="Long">
+        SELECT COUNT(*) FROM team1Table
+    </select>
+
+    <select id="selectSeoulDataByIndustry" resultMap="SeoulDTOResult">
+        SELECT *
+        FROM team1Table
+        WHERE sector_name = #{sectorName}
+        ORDER BY year ASC, quarter ASC
+    </select>
+
+    <update id="updateSeoulData" parameterType="com.project.team_project.domain.SeoulDTO">
+        UPDATE team1Table
+        SET
+        sales_amount = #{salesAmount},
+        sales_count = #{salesCount}
+        WHERE sector_name = #{sectorName} AND year = #{year} AND quarter = #{quarter}
+    </update>
+
+    <insert id="updateAllSeoulData" parameterType="java.util.List">
+        INSERT INTO team1Table (sector_name, year, quarter, sales_amount, sales_count)
+        VALUES
+        <foreach collection="list" item="item" separator=",">
+            (#{item.sectorName}, #{item.year}, #{item.quarter}, #{item.salesAmount}, #{item.salesCount})
+        </foreach>
+        ON DUPLICATE KEY UPDATE
+        sales_amount = VALUES(sales_amount),
+        sales_count  = VALUES(sales_count)
+    </insert>
+
+    <select id="selectSeoulDataPaging" resultMap="SeoulDTOResult">
+        SELECT *
+        FROM team1Table
+        ORDER BY year ASC, quarter ASC
+        LIMIT #{size} OFFSET #{offset}
+    </select>
+
+    <select id="countSeoulData" resultType="int">
+        SELECT COUNT(*) FROM team1Table
+    </select>
+
+</mapper>
